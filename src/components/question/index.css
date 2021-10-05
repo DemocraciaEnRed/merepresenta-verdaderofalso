@@ -1,10 +1,13 @@
-.option-button {
-  font-family: General Sans;
-  margin: 0 auto;
+.row.option {
   margin-top: 15px;
 }
 
-.option-button:first-child { margin-top: 0px; }
+.row.option:first-child { margin-top: 0px; }
+
+.option-button {
+  font-family: General Sans;
+  margin: 0 auto;
+}
 
 .option-text {
   font-size: smaller;

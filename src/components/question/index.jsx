@@ -1,6 +1,6 @@
 import _ from "lodash";
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, Row } from "react-bootstrap";
 import "./index.css";
 
 const Option = ({ onOptionSelected, option }) =>
@@ -13,12 +13,14 @@ export default ({ question, options, onOptionSelected }) => (
     <p>{question.text}</p>
     <div className="col-md-8">
       {options.map((option, number) =>
-        <Option
-          key={number}
-          question={question}
-          option={option}
-          onOptionSelected={onOptionSelected}
-        /> )}
+        <Row key={number} className="option">
+          <Option
+            question={question}
+            option={option}
+            onOptionSelected={onOptionSelected}
+          />
+        </Row>
+      )}
     </div>
   </div>
 );
