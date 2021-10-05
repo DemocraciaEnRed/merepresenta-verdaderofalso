@@ -2,7 +2,7 @@
   "name": "trivia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://natoszme.github.io/der-trivia",
+  "homepage": "http://DemocraciaEnRed.github.io/merepresenta-trivia",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
