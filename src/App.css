@@ -1,4 +1,4 @@
-html, body, #root, .App, .App>div, .container {
+html, body, #root, .App, .App>div, .game-container {
   height: 100%;
 }
 

@@ -6,7 +6,7 @@ const MobileSizeContainer = ({ children }) => <div className="col-xl-4 col-lg-6 
   {children}
 </div>;
 
-const WithBackground = ({ background, ...props }) => <div className="container" style={{ backgroundImage: `url(${background})` }}>
+const WithBackground = ({ background, ...props }) => <div className="game-container" style={{ backgroundImage: `url(${background})` }}>
   <MobileSizeContainer {...props}/>
 </div>
 
