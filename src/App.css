@@ -12,8 +12,8 @@ html, body, #root, .App, .App>div, .container {
 }
 
 @font-face {
-  font-family: 'General Sans';
-  src: local('General Sans'), url(./fonts/GeneralSans.woff) format('woff');
+  font-family: 'General Sans Medium';
+  src: local('General Sans Medium'), url(./fonts/GeneralSansMedium.woff) format('woff');
 }
 
 p {
