@@ -6,6 +6,8 @@ import DidacticModal from "../didacticModal";
 import Topic from "../topic";
 import Logo from "../logo";
 import "./index.css";
+import Background from '../../images/roundBackground.svg';
+import WithBackground from "../withBackground";
 
 export default function DidacticQuestion({ question, moveToNext, currentQuestionNumber, questionCount }) {
   const [answered, setAnswered] = useState(false);
@@ -28,7 +30,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
   const Progress = () => <p>{currentQuestionNumber + 1} / {questionCount}</p>;
 
   return (
-    <div>
+    <WithBackground background={Background}>
       <Logo topic={topic} />
       <Topic topic={topic}/>
       <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
@@ -39,6 +41,6 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
         answerIsOk={answerIsOk}
         descriptionRead={() => moveToNext(answerIsOk)}
       />
-    </div>
+    </WithBackground>
   );
 }
