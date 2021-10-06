@@ -2,19 +2,9 @@ import Round from "./components/round";
 import _ from "lodash";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
-import Logo from "./components/logo";
+import Landing from "./components/landing";
+import Topics from "./components/topics";
 import "./App.css"
-
-const Landing = ({ follow }) => <div>
-  <p>Merre</p>
-  <button onClick={follow}>Next</button>
-</div>
-
-const Topics = ({ follow }) => <div>
-  <Logo />
-  <p>Estos son los temas</p>
-  <button onClick={follow}>Next</button>
-</div>;
 
 function App() {
   const [currentStep, setCurrentStep] = useState("landing");
