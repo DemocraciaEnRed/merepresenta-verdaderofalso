@@ -8,7 +8,7 @@ const Option = ({ onOptionSelected, option }) =>
     <span className="option-text">{_.toUpper(option)}</span>
   </Button>
 
-export default ({ question, options, onOptionSelected }) => (
+const Question = ({ question, options, onOptionSelected }) => (
   <div>
     <p>{question.text}</p>
     <div className="col-md-8">
@@ -24,3 +24,5 @@ export default ({ question, options, onOptionSelected }) => (
     </div>
   </div>
 );
+
+export default Question;

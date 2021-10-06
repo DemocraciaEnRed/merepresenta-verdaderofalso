@@ -10,7 +10,7 @@ const Description = ({ question: { description }, answerIsOk }) => {
   );
 }
 
-export default ({ question, show, answerIsOk, descriptionRead }) => (
+const DidacticModal = ({ question, show, answerIsOk, descriptionRead }) => (
   <Modal show={show} onHide={descriptionRead}>
     <Modal.Header>
       <Modal.Title>{question.topic}</Modal.Title>
@@ -25,3 +25,5 @@ export default ({ question, show, answerIsOk, descriptionRead }) => (
     </Modal.Footer>
   </Modal>
 );
+
+export default DidacticModal;

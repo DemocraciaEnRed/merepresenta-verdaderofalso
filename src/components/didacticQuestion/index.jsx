@@ -18,7 +18,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
   useEffect(() => {
     const shuffledOptions = _(incorrectAnswers).concat(answer).shuffle().value();
     setOptions(shuffledOptions);
-  }, []);
+  }, [answer, incorrectAnswers]);
 
   const onOptionSelected = option => {
     if (answered) return;

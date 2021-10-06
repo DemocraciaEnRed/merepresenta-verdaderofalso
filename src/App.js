@@ -18,7 +18,7 @@ const Topics = ({ follow }) => <div>
 
 function App() {
   const [currentStep, setCurrentStep] = useState("landing");
-  const [playAgain, setPlayAgain] = useState();
+  const setPlayAgain = _.last(useState());
   const Game = ({ setPlayAgain }) => {
     return <Round setPlayAgain={setPlayAgain}/>;
   };

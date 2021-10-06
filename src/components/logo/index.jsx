@@ -1,3 +1,5 @@
 import React from "react";
 
-export default ({ topic }) => <p>#MeRepresenta</p>
+const Logo = ({ topic }) => <p>#MeRepresenta</p>
+
+export default Logo;

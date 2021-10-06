@@ -2,4 +2,6 @@ import _ from "lodash";
 import React from "react";
 import "./index.css"
 
-export default ({ topic }) => <p className="topic">{_.toUpper(topic)}</p>
+const Topic = ({ topic }) => <p className="topic">{_.toUpper(topic)}</p>
+
+export default Topic;
