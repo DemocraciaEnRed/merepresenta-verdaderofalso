@@ -1,8 +1,10 @@
 import React from "react";
+import WithBackground from "../withBackground";
+import Background from '../../images/scoreBackground.svg';
 
-export default function Score({ score, setPlayAgain }) {
-  return <div>
-    <p>{score}</p>
-    <button onClick={setPlayAgain}>Jugar de nuevo</button>
-  </div>;
-}
+const Score = ({ score, setPlayAgain }) => <WithBackground background={Background}>
+  <p>{score}</p>
+  <button onClick={setPlayAgain}>Jugar de nuevo</button>
+</WithBackground>;
+
+export default Score;
