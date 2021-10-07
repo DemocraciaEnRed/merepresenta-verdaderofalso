@@ -9,6 +9,10 @@ import "./index.css";
 import Background from '../../images/roundBackground.svg';
 import WithBackground from "../withBackground";
 
+const MobileSizeContainer = ({ children }) => <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-8">
+  {children}
+</div>;
+
 export default function DidacticQuestion({ question, moveToNext, currentQuestionNumber, questionCount }) {
   const [answered, setAnswered] = useState(false);
   const [answerIsOk, setAnswerIsOk] = useState(false);
@@ -33,14 +37,16 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
     <WithBackground background={Background}>
       <Logo topic={topic} />
       <Topic topic={topic}/>
-      <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
-      <Progress />
-      <DidacticModal
-        show={answered}
-        question={question}
-        answerIsOk={answerIsOk}
-        descriptionRead={() => moveToNext(answerIsOk)}
-      />
+      <MobileSizeContainer>
+        <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
+        <Progress />
+        <DidacticModal
+          show={answered}
+          question={question}
+          answerIsOk={answerIsOk}
+          descriptionRead={() => moveToNext(answerIsOk)}
+        />
+      </MobileSizeContainer>
     </WithBackground>
   );
 }
