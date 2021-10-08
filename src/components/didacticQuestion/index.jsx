@@ -8,6 +8,9 @@ import Logo from "../logo";
 import "./index.css";
 import Background from '../../images/roundBackground.svg';
 import WithBackground from "../withBackground";
+import Progress from "../progress";
+
+const FooterSeparator = () => <div className="footer-separator" />;
 
 export default function DidacticQuestion({ question, moveToNext, currentQuestionNumber, questionCount }) {
   const [answered, setAnswered] = useState(false);
@@ -27,21 +30,19 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
     setAnswerIsOk(isCorrect);
   };
 
-  const Progress = () => <p>{currentQuestionNumber + 1} / {questionCount}</p>;
-
   return (
     <WithBackground background={Background}>
       <Logo topic={topic} />
       <Topic topic={topic}/>
       <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
-      <Progress />
+      <Progress currentQuestionNumber={currentQuestionNumber} questionCount={questionCount} topic={topic}/>
+      <FooterSeparator />
       <DidacticModal
         show={answered}
         question={question}
         answerIsOk={answerIsOk}
         descriptionRead={() => moveToNext(answerIsOk)}
       />
-      <div className="footer-separator" />
     </WithBackground>
   );
 }

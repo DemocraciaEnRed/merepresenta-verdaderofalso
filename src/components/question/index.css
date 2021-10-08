@@ -2,13 +2,21 @@
   margin-top: 15px;
 }
 
-.row.option:first-child { margin-top: 0px; }
+.row.option:first-child {
+  margin-top: 35px;
+}
 
 .option-button {
   font-family: General Sans Medium;
   margin: 0 auto;
+  padding: .575rem .75rem;
 }
 
 .option-text {
   font-size: smaller;
+}
+
+.question {
+  font-size: 20px;
+  margin-top: 30px;
 }
