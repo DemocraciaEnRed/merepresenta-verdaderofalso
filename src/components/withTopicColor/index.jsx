@@ -1,5 +1,5 @@
-import _ from "lodash";
 import React from "react";
+import _ from "lodash";
 
 const topicColors = {
   "Frases Memorables": "FB2D11",
