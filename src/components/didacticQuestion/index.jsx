@@ -41,6 +41,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
         answerIsOk={answerIsOk}
         descriptionRead={() => moveToNext(answerIsOk)}
       />
+      <div className="footer-separator" />
     </WithBackground>
   );
 }

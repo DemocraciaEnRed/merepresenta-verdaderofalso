@@ -16,7 +16,7 @@ const WithTopicColor = ({ render, topic }) => {
 };
 
 const Topic = ({ topic }) => {
-  return <div className="topic">
+  return <div className="topic separator">
     <WithTopicColor
       render={color => <p style={{ "background-color": color }} className="topic-name">{_.toUpper(topic)}</p>}
       topic={topic}
