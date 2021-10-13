@@ -22,8 +22,10 @@ const DidacticModal = ({ question, show, answerIsOk, descriptionRead }) => (
       <Modal.Body>
         <Description question={question} answerIsOk={answerIsOk}/>
         <div onClick={descriptionRead} className="continue">
-          <span className="continue">CONTINUAR</span>
-          <ContinueIcon className="continue-icon"/>
+          <div className="continue-button">
+            <span className="continue">CONTINUAR</span>
+            <ContinueIcon className="continue-icon"/>
+          </div>
         </div>
       </Modal.Body>
     </div>

@@ -19,10 +19,14 @@
 
 .continue {
   text-align: center;
-  cursor: pointer;
   color: white;
   font-size: 14px;
   padding: 2rem 0 2rem;
+}
+
+.continue-button {
+  width: fit-content;
+  cursor: pointer;
 }
 
 .continue-icon {
