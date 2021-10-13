@@ -1,28 +1,28 @@
 import React from "react";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
+import Topic from "../topic";
+import "./index.css"
 
 const Description = ({ question: { description }, answerIsOk }) => {
   return (
     <div>
-      <p>{description}</p>
+      <p className="description">{description}</p>
       <p>{answerIsOk? "Ok" : "Not ok"}</p>
     </div>
   );
 }
 
 const DidacticModal = ({ question, show, answerIsOk, descriptionRead }) => (
-  <Modal show={show} onHide={descriptionRead}>
-    <Modal.Header>
-      <Modal.Title>{question.topic}</Modal.Title>
-    </Modal.Header>
-    <Modal.Body>
-      <Description question={question} answerIsOk={answerIsOk}/>
-    </Modal.Body>
-    <Modal.Footer>
-      <Button variant="secondary" onClick={descriptionRead}>
-        Cerrar
-      </Button>
-    </Modal.Footer>
+  <Modal show={show} onHide={descriptionRead} className="modal-container">
+    <div className="didactic-modal">
+      <Topic topic={question.topic} separatorColor="white" textColor="black"/>
+      <Modal.Body>
+        <Description question={question} answerIsOk={answerIsOk}/>
+        <div onClick={descriptionRead} className="continue">
+          <p>CONTINUAR</p>
+        </div>
+      </Modal.Body>
+    </div>
   </Modal>
 );
 

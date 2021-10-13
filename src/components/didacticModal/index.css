@@ -1,0 +1,25 @@
+.modal-container {
+  margin-top: 4rem;
+}
+
+.didactic-modal {
+  border: none;
+}
+
+.didactic-modal p:not(.topic-name) {
+  color: white;
+}
+
+.description {
+  color: white;
+  font-size: 20px;
+}
+
+.didactic-modal {
+  background-color: black;
+}
+
+.continue {
+  text-align: center;
+  cursor: pointer;
+}

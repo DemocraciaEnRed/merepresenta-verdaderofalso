@@ -11,6 +11,7 @@ import WithBackground from "../withBackground";
 import Progress from "../progress";
 
 const FooterSeparator = () => <div className="footer-separator" />;
+const Footer = ({ children }) => <div  className="footer navbar fixed-bottom">{children}</div>;
 
 export default function DidacticQuestion({ question, moveToNext, currentQuestionNumber, questionCount }) {
   const [answered, setAnswered] = useState(false);
@@ -35,10 +36,10 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
       <Logo topic={topic} />
       <Topic topic={topic}/>
       <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
-      <div className="footer navbar fixed-bottom">
+      <Footer>
         <Progress currentQuestionNumber={currentQuestionNumber} questionCount={questionCount} topic={topic}/>
         <FooterSeparator />
-      </div>
+      </Footer>
       <DidacticModal
         show={answered}
         question={question}
