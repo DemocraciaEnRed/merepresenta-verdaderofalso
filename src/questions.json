@@ -2,17 +2,17 @@
     {
         "topic": "Política Nacional",
         "text": "¿En qué año se comenzó a aplicar el esquema de pago de ganancias conocido como la 'Tablita de Machinea'?",
-        "description": "La reforma tributaria impulsada por el gobierno de la Alianza fue aprobada por el Congreso en diciembre de 1999, pero empezó a regir a partir del año 2000",
-        "answer": 2000,
+        "description": "La reforma tributaria impulsada por el gobierno de la Alianza fue aprobada por el Congreso en diciembre de 1999, pero empezó a regir a partir del año 2000.",
+        "answer": "2000",
         "incorrectAnswers": [
-            1990,
-            1980
+            "1990",
+            "1980"
         ]
     },
     {
         "topic": "Política Nacional",
-        "text": "¿Quién es el presidente del PJ Bonaerense?",
-        "description": "Gustavo Menéndez es intendente de Merlo, asumió como presidente del PJ bonaerense en diciembre de 2017",
+        "text": "¿Quién es hoy el presidente del PJ Bonaerense?",
+        "description": "Gustavo Menéndez es intendente de Merlo, asumió como presidente del PJ bonaerense en diciembre de 2017 y permanece en el cargo desde entonces.",
         "answer": "Gustavo Menéndez",
         "incorrectAnswers": [
             "Pablo Moyano",
@@ -32,7 +32,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿Qué vicepresidente renunció en el año 2000?",
-        "description": "Carlos Álvarez renunció en forma indeclinable a su cargo el 6 de octubre de 2000.",
+        "description": "Carlos Álvarez renunció en forma indeclinable a su cargo el 6 de octubre de 2000, habia sido electo sólo un año antes.",
         "answer": "Carlos \"Chacho\" Álvarez",
         "incorrectAnswers": [
             "Graciela Fernández Meijide",
@@ -42,7 +42,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿Quién ocupa el juzgado federal con compentencia en las elecciones?",
-        "description": "María Servini de Cubría ocupa el Juzgado Federal nro1 desde noviembre de 1990",
+        "description": "María Servini de Cubría ocupa el Juzgado Federal nro1 desde noviembre de 1990.",
         "answer": "Romilda Servini de Cubría",
         "incorrectAnswers": [
             "Daniel Rafecas",
@@ -52,7 +52,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿En qué ciudad se organizó el cónclave de la UCR que definió la integración radical a Cambiemos, en 2015?",
-        "description": "En la Convención de Gualeguaychú, con el aval de 186 delegados sobre 330, la UCR decidió formar una alianza con el PRO y la Coalición Cívica que llamarían \"Cambiemos",
+        "description": "En la Convención de Gualeguaychú, con el aval de 186 delegados sobre 330, la UCR decidió formar una alianza con el PRO y la Coalición Cívica que llamarían \"Cambiemos\".",
         "answer": "Gualeguaychú",
         "incorrectAnswers": [
             "Paraná",
@@ -61,8 +61,8 @@
     },
     {
         "topic": "Política Nacional",
-        "text": "¿Qué ministro compartieron la gestión de Mauricio Macri y en la de Cristina Kirchner?",
-        "description": "Barañao fue único ministro que tuvo continuidad entre gestiones, ocupó el Ministerio de Ciencia durante más de 10 años",
+        "text": "¿Qué ministro estuvo en su cargo durante la gestión de Mauricio Macri y la de Cristina Kirchner?",
+        "description": "Barañao fue único ministro que tuvo continuidad entre gestiones, ocupó el Ministerio de Ciencia por más de 10 años.",
         "answer": "Lino Barañao",
         "incorrectAnswers": [
             "Alberto Fernández",
@@ -71,7 +71,7 @@
     },
     {
         "topic": "Política Nacional",
-        "text": "¿Qué ex-futbolistas fueron Secretarios de Deportes?",
+        "text": "¿Qué ex-futbolista fue Secretario de Deportes?",
         "description": "Perfumo fue Secretario de Deportes durante la presidencia de Néstor Kirchner, fue sucedido por Claudio Morresi, otro ex futbolista.",
         "answer": "Roberto Perfumo",
         "incorrectAnswers": [
@@ -92,7 +92,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿Quién es el gobernador de Chaco?",
-        "description": "En 2019, Jorge Capitanich fue electo gobernador con más del 49% de los votos. \"Coqui\" ya había sido electo gobernador en 2007 y en 2015",
+        "description": "En 2019, Jorge Capitanich fue electo gobernador con más del 49% de los votos. \"Coqui\" ya había sido electo gobernador en 2007 y en 2015.",
         "answer": "Jorge Capitanich",
         "incorrectAnswers": [
             "Domingo Peppo",
@@ -101,8 +101,8 @@
     },
     {
         "topic": "Política Nacional",
-        "text": "¿Quién fue la primera gobernadorA electa de Argentina?",
-        "description": "Fabiana Ríos fue la primera mujer electa gobernadora de una provincia, Tierra del Fuego, en 2007",
+        "text": "¿Quién fue la primera gobernadora electa de Argentina?",
+        "description": "Fabiana Ríos fue la primera mujer electa gobernadora de una provincia, en Tierra del Fuego en 2007.",
         "answer": "Fabiana Ríos",
         "incorrectAnswers": [
             "Lucía Corpacci",
@@ -121,12 +121,12 @@
     },
     {
         "topic": "Política Nacional",
-        "text": "¿Cuántas mujeres fueron electas gobernadoras de alguna provincia?",
+        "text": "¿Cuántas mujeres fueron electas gobernadoras de alguna provincia en toda la historia?",
         "description": "Fabiana Ríos (T. del Fuego), Lucía Corpacci (Catamarca), Claudia Ledesma Abdala (Santiago del Estero), Ma. Eugenia Vidal (Buenos Aires), Alicia Kirchner (Sta Cruz) y Rosana Bertone (T. del Fuego) encabezaron la fórmula para la gobernación y ganaron.",
-        "answer": 6,
+        "answer": "6",
         "incorrectAnswers": [
-            9,
-            19
+            "9",
+            "19"
         ]
     },
     {
@@ -136,23 +136,23 @@
         "answer": "San Isidro",
         "incorrectAnswers": [
             "La Matanza",
-            "."
+            "Lomas de Zamora"
         ]
     },
     {
         "topic": "Política Nacional",
-        "text": "¿Cuántos Decretos de Necesidad y Urgencia (DNU) emitió Macri como Presidente?",
-        "description": "EXACTOS en 4 años, promedio por año",
-        "answer": "Más de 40",
+        "text": "¿Qué presidente/a firmó un mayor número de Decretos de Necesidad y Urgencia (DNU)?",
+        "description": "Néstor Kirchner firmó 237 decretos en 4 años de presidencia.",
+        "answer": "Néstor Kirchner",
         "incorrectAnswers": [
-            "Entre 20 y 40",
-            "Menos de 20"
+            "Mauricio Macri",
+            "Cristina Fernández de Kirchner"
         ]
     },
     {
         "topic": "Política Nacional",
-        "text": "De las siguientes provincias ¿cuál está gobernadas por Cambiemos?",
-        "description": "Gerardo Morales es gobernador de Jujuy desde el 10 de diciembre de 2015",
+        "text": "De las siguientes provincias ¿cuál está gobernada por Cambiemos?",
+        "description": "Gerardo Morales es gobernador de Jujuy desde el 10 de diciembre de 2015.",
         "answer": "Jujuy",
         "incorrectAnswers": [
             "Córdoba",
@@ -162,7 +162,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿Quién fue la primera candidata a diputada en Argentina en el año 1919?",
-        "description": "Lanteri es también la fundadora del Partido Feminista Nacional",
+        "description": "Lanteri es también la fundadora del Partido Feminista Nacional.",
         "answer": "Julieta Lanteri",
         "incorrectAnswers": [
             "Alicia Moreau de Justo",
@@ -172,7 +172,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿Qué ministro de la actual Corte Suprema fue convencional constituyente en la reforma de 1994?",
-        "description": "En 1994, se reformó la Constitución Nacional. Entre lo integantes de la Convención Constituyentese encontraban los actuales jueces de la Corte Juan Maqueda y Horacio Rosatti",
+        "description": "En 1994, se reformó la Constitución Nacional. Entre lo integantes de la Convención Constituyentese encontraban los actuales jueces de la Corte Juan Maqueda y Horacio Rosatti.",
         "answer": "Juan Carlos Maqueda",
         "incorrectAnswers": [
             "Carlos Rosenkrantz",
@@ -183,10 +183,10 @@
         "topic": "Política Nacional",
         "text": "¿Cuántos ministerios existen actualmente en la Argentina?",
         "description": "Incluyendo a la Jefatura de gabinete, Argentina tiene 21 ministerios nacionales, un número superior al promedio del resto de los países de América Latina.",
-        "answer": 21,
+        "answer": "21",
         "incorrectAnswers": [
-            16,
-            8
+            "16",
+            "8"
         ]
     },
     {
@@ -200,9 +200,99 @@
         ]
     },
     {
+        "topic": "Política Nacional",
+        "text": "¿Quién es el actual ministro de Defensa?",
+        "description": "Jorge Taiana asumió como ministro de Defensa el 10 de agosto de 2021, en reemplazo de Agustín Rossi.",
+        "answer": "Jorge Taiana",
+        "incorrectAnswers": [
+            "Agustín Rossi",
+            "Matías Kulfas"
+        ]
+    },
+    {
+        "topic": "Política Nacional",
+        "text": "¿Cuántos ministerios están liderados por mujeres actualmente?",
+        "description": "Carla Vizzotti es la titular del Ministerio de Salud y Elizabeth Gómez Alcorta del Ministerio de Mujeres, Géneros y Diversidad.",
+        "answer": "2",
+        "incorrectAnswers": [
+            "3",
+            "4"
+        ]
+    },
+    {
+        "topic": "Política Nacional",
+        "text": "¿Quién es el jefe de gabinente del gobernador Axel Kicillof?",
+        "description": "Martín Insaurralde asumió como jefe de gabinete de Axel Kicillof el 20 de septiembre de 2021. Hasta ese entonces estaba a cargo de la intendencia de Lomas de Zamora.",
+        "answer": "Martín Insaurralde",
+        "incorrectAnswers": [
+            "Mariano Cascallares",
+            "Fernando Espinoza"
+        ]
+    },
+    {
+        "topic": "Política Nacional",
+        "text": "¿Quién es el actual ministro de Cultura?",
+        "description": "Tristán Bauer es el ministro de Cultura desde el 10 de diciembre de 2019.",
+        "answer": "Tristán Bauer",
+        "incorrectAnswers": [
+            "Pablo Avelluto",
+            "Lino Barañao"
+        ]
+    },
+    {
+        "topic": "Política Nacional",
+        "text": "¿Quién preside la comision de Presupuesto y Hacienda de la Camara de Diputados?",
+        "description": "Carlos Heller, diputado nacional por la Ciudad de Buenos Aires, del Frente de Todos preside la comision desde diciembre 2019. Anteriormente la presidió Luciano Laspina (PRO-Santa Fe).",
+        "answer": "Carlos Heller",
+        "incorrectAnswers": [
+            "Roberto Felleti",
+            "Gustavo Marconatto"
+        ]
+    },
+    {
+        "topic": "Política Nacional",
+        "text": "¿Quién es el gobernador de la provincia de Santa Fe?",
+        "description": "Omar Perotti es gobernador de Santa Fe desde el 11 de diciembre de 2019.",
+        "answer": "Omar Perotti",
+        "incorrectAnswers": [
+            "Miguel Lifschitz",
+            "Antonio Bonfatti"
+        ]
+    },
+    {
+        "topic": "Política Nacional",
+        "text": "¿Quién es la presidenta del PRO?",
+        "description": "Patricia Bullrich es presidenta del PRO desde el 5 de febrero de 2020.",
+        "answer": "Patricia Bullrich",
+        "incorrectAnswers": [
+            "Gladys González",
+            "Elisa Carrió"
+        ]
+    },
+    {
+        "topic": "Política Nacional",
+        "text": "¿A qué partido pertenece el gobernador de San Juan Sergio Uñac?",
+        "description": "El Partido Justicialista gobierna la provincia desde 2003, de la mano de José Luis Gioja (2003-2015) y, ahora, con Sergio Uñac (2019-presente).",
+        "answer": "Partido Justicialista",
+        "incorrectAnswers": [
+            "Unión Cívica Radical",
+            "PRO"
+        ]
+    },
+    {
+        "topic": "Política Nacional",
+        "text": "¿Quien es el/la presidente provisional del Senado actualmente?",
+        "description": "Es senadora por la provincia de Santiago del Estero y su mandato es 2019-2025. Anteriormente fue diputada nacional (2017-2019) y gobernadora de la provincia (2013-2017)",
+        "answer": "Claudia Ledesma Abdala",
+        "incorrectAnswers": [
+            "Cristina Fernández de Kirhner",
+            "Ines Imelda Blas"
+        ]
+    },
+    {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo “dentro de poco llegaremos de Argentina a Japón en una hora volando en cohete por la estratosfera”?",
-        "description": "En 1996, el presidente Carlos Menem anticipó que \"en el corto plazo\" se iba a licitar un sistema de vuelos espaciales para comunicar Argentina con otros destinos, en tiempo récord",
+        "description": "En 1996, el presidente Carlos Menem anticipó que \"en el corto plazo\" se iba a licitar un sistema de vuelos espaciales para comunicar Argentina con otros destinos, en tiempo récord.",
         "answer": "Carlos Menem",
         "incorrectAnswers": [
             "Néstor Kirchner",
@@ -212,7 +302,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo \"el peronismo triunfará conmigo o sinmigo”?",
-        "description": "La frase corresponde a Herminio Iglesias, candidato a Gobernador bonaerense en la campaña de 1983",
+        "description": "La frase corresponde a Herminio Iglesias, candidato a Gobernador bonaerense en la campaña de 1983.",
         "answer": "Herminio Iglesias",
         "incorrectAnswers": [
             "Fernando Iglesias",
@@ -232,7 +322,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo  “a vos no te va tan mal, gordito”?",
-        "description": "En un acto en Chos Malal, en 1987, en medio del discurso sobre el traslado de la Capital Federal a Viedma, Raúl Alfonsín le hizo este comentario a un asistente enojado.",
+        "description": "En un acto en Chos Malal, en 1987, en medio del discurso sobre el traslado de la Capital Federal a Viedma, Raúl Alfonsín tuvo un contrapunto con un asistente enojado.",
         "answer": "Raúl Alfonsín",
         "incorrectAnswers": [
             "Patricia Bullrich",
@@ -242,7 +332,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo \"debo ser la reencarnación de un gran arquitecto egipcio\"?",
-        "description": "En 2012, mientras anunciaca el polo audiovisual en la Isla de Marchi, CFK reveló su entusiasmo por construir y diseñar estructuras.",
+        "description": "En 2012, mientras anunciaba las obras del polo audiovisual, en la Isla de Marchi, CFK reveló su entusiasmo por construir y diseñar estructuras.",
         "answer": "Cristina Kirchner",
         "incorrectAnswers": [
             "Guillermo Moreno",
@@ -262,7 +352,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo \"no habrá devaluación brusca, la tendencia de los últimos días se acaba esta semana”?",
-        "description": "Celestino Rodrigo, ministro de Economía de Martínez de Perón, es recordado por una brusca devaluación del peso de más del 60%, el \"Rodrigazo",
+        "description": "Celestino Rodrigo, ministro de Economía de Martínez de Perón, es recordado por una brusca devaluación del peso de más del 60%, :el \"Rodrigazo\".",
         "answer": "Celestino Rodrigo",
         "incorrectAnswers": [
             "Axel Kicillof",
@@ -272,7 +362,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Qué candidato hizo campaña \"por los niños pobres que tienen hambre y por los niños ricos que tienen tristeza”?",
-        "description": "En la campaña presidencial de 1989, Carlos Menem hizo un enumeración la que también recordó a los jubilados, desempleados y personas sin techo",
+        "description": "En la campaña presidencial de 1989, Carlos Menem hizo una larga enumeración en la que también recordó a los \"jubilados\", \"desempleados\" y \"personas sin techo\".",
         "answer": "Carlos Menem",
         "incorrectAnswers": [
             "Eduardo Duhalde",
@@ -282,7 +372,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo \"si el mercado quiere dólares, le vamos a dar con el látigo”?",
-        "description": "José Luis Machinea, presidente del Banco Central , no pudo frenar a latigazos la corrida bancaria de 1989",
+        "description": "José Luis Machinea, presidente del Banco Central, no pudo frenar a latigazos la corrida bancaria de 1989.",
         "answer": "José Machinea",
         "incorrectAnswers": [
             "Guillermo Moreno",
@@ -292,7 +382,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo \"este viejo adversario despide a un amigo\"?",
-        "description": "En julio de 1974, Ricardo Balbín pronunció esta frase en el funeral de Perón, sacandosé el sombrero ante su viejo rival político",
+        "description": "En julio de 1974, Ricardo Balbín pronunció esta frase en el funeral de Perón, sacandosé el sombrero ante su viejo rival político.",
         "answer": "Ricardo Balbín",
         "incorrectAnswers": [
             "Juan Domingo Perón",
@@ -311,7 +401,7 @@
     },
     {
         "topic": "Frases Memorables",
-        "text": "¿Quíen dijo \"señor Presidente: Jesús dijo a sus discípulos \"lo que haya que hacer, hagámoslo rápido\"?",
+        "text": "¿Quíen dijo \"señor Presidente, como Jesús dijo a sus discípulos: lo que haya que hacer, hagámoslo rápido\"?",
         "description": "En la sesión del Senado en la que se discutió la 125, esquema de retenciones móviles para el agro, Miguel Pichetto tuvo un momento bíblico justo antes del voto \"no positivo\" de Cobos",
         "answer": "Miguel Ángel Pichetto",
         "incorrectAnswers": [
@@ -321,7 +411,7 @@
     },
     {
         "topic": "Frases Memorables",
-        "text": "¿Quién dijo \"aquí no hay crisis, ni problemas\" en octubre del 2000?",
+        "text": "¿Quién dijo, en octubre del 2000, \"aquí no hay crisis, ni problemas\"?",
         "description": "Fernando De la Rúa envió este mensaje a la ciudadanía para transmitir tranquilidad.",
         "answer": "Fernando De la Rúa",
         "incorrectAnswers": [
@@ -332,7 +422,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo \"no me gusta el timbreo\"?",
-        "description": "En una sesión de Diputados, los legisladores le pidieron al Presidente de la Cámara que llame al orden tocando la campana. Monzó respondió: \"¡no me gusta el timbreo!\".",
+        "description": "En una sesión de Diputados, los legisladores le pidieron al Presidente de la Cámara que llame al orden tocando la campana y Monzó respondió con una ironía: \"no me gusta el timbreo\".",
         "answer": "Emilio Monzó",
         "incorrectAnswers": [
             "Federico Pinedo",
@@ -342,7 +432,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo \"los bancos tendrán que abrir sus puertas y que sea lo que Dios quiera”?",
-        "description": "Luego del \"corralito\" y diciembre de 2001, el entonces presidente Eduardo Duhalde usó esta frase para presionar al Congreso y que apruebe sus reformas económicas.",
+        "description": "Luego del \"corralito\" y diciembre de 2001, el entonces presidente Eduardo Duhalde usó esta frase para presionar a un Congreso que no quiso aprobar sus reformas económicas.",
         "answer": "Eduardo Duhalde",
         "incorrectAnswers": [
             "Mauricio Macri",
@@ -352,7 +442,7 @@
     {
         "topic": "Frases Memorables",
         "text": "¿Quién dijo \"los brasileros salieron de la selva\"?",
-        "description": "En una conferencia de prensa, Alberto Fernández dijo \"los mexicanos salieron de los indios, los brasileros salieron de la selva, pero nosotros los argentinos llegamos de los barcos,",
+        "description": "En una conferencia de prensa, Alberto Fernández dijo \"los mexicanos salieron de los indios, los brasileros salieron de la selva, pero nosotros los argentinos llegamos de los barcos\".",
         "answer": "Alberto Fenández",
         "incorrectAnswers": [
             "Mauricio Macri",
@@ -361,17 +451,17 @@
     },
     {
         "topic": "Frases Memorables",
-        "text": "¿Quién dijo \"\"En campaña saben hasta la fórmula de la Coca Cola, después no saben hacer ni un mate cocido\"?",
-        "description": "En 2014,  en un acto en Formosa, Cristina Kirchner se refirió a la diferencia entre un político en campaña y ese mismo político cuando ya fue electo.",
+        "text": "¿Quién dijo \"en campaña saben hasta la fórmula de la Coca Cola, después no saben hacer ni un mate cocido\"?",
+        "description": "En 2014,  en un acto en Formosa, Cristina Kirchner se refirió a la diferencia entre la campaña y la gestión.",
         "answer": "Cristina Kirchner",
         "incorrectAnswers": [
             "Axel Kiciloff",
-            "Eduardo Duhalde"
+            "María Eugenia Vidal"
         ]
     },
     {
         "topic": "Frases Memorables",
-        "text": "¿Quién dijo \"Llevo en mis oídos la más maravillosa música que, para mí, es la palabra del pueblo argentino\"?",
+        "text": "¿Quién dijo \"llevo en mis oídos la más maravillosa música que, para mí, es la palabra del pueblo argentino\"?",
         "description": "En 1974, al cierre del que sería su último discurso desde el balcón de la Rosada, Juan Domingo Perón pronunció esta frase, que sonó como un adiós.",
         "answer": "Juan D. Perón",
         "incorrectAnswers": [
@@ -391,12 +481,112 @@
     },
     {
         "topic": "Frases Memorables",
-        "text": "¿Quién dijo \"“tenemos que tratar de no robar, por lo menos, dos años,\"?",
-        "description": "En 1990, en horario central de la televisión, el sindicalista Luis Barrionuevo presentó esta idea para \"sacar al país adelante\".",
+        "text": "¿Quién dijo \"tenemos que tratar de no robar, por lo menos, dos años en este país\"?",
+        "description": "En 1990, en horario central de la televisión, el sindicalista Luis Barrionuevo compartió esta idea como una medida para \"sacar al país adelante\".",
         "answer": "Luis Barrionuevo",
         "incorrectAnswers": [
             "Hugo Moyano",
             "Elisa Carrió"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "¿Quién dijo \"con la democracia se cura, se come y se educa\"?",
+        "description": "Raúl Alfonsín pronunció estas palabras cuando asumía como Presidente, el 10 de diciembre de 1983.",
+        "answer": "Raúl Alfonsín",
+        "incorrectAnswers": [
+            "Carlos Menem",
+            "Fernando de la Rúa"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "Quién dijo \"el que depositó dólares, recibirá dólares\"?",
+        "description": "Eduardo Duhalde dijo esta frase en el marco de su asunción como Presidente el 2 de enero de 2002, luego del \"corralito\" y de los eventos de diciembre de 2001.",
+        "answer": "Eduardo Duhalde",
+        "incorrectAnswers": [
+            "Adolfo Rodríguez Saá",
+            "Ramón Puerta"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "¿Quién dijo \"tenemos el mejor equipo de los últimos 50 años\"?",
+        "description": "El 2 de diciembre de 2015, ocho días antes de asumir como Presidente de la Nación, Mauricio Macri presentó a su gabinete con esta frase.",
+        "answer": "Mauricio Macri",
+        "incorrectAnswers": [
+            "Alberto Fernández",
+            "Néstor Kirchner"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "¿Quién dijo \"veníamos bien, pero pasaron cosas\"?",
+        "description": "En una entrevista con Jorge Lanata en junio de 2018, Mauricio Macri opinò sobre el aumento de la inflación y la devaluación del peso.",
+        "answer": "Mauricio Macri",
+        "incorrectAnswers": [
+            "Rogelio Frigerio",
+            "Patricia Bullrich"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "¿Quién dijo \" nadie nos va a robar la Republiquita porque está muy sana\"?",
+        "description": "Carrió esbozó esta frase durante una reunión del gabinete ampliado de Mauricio Macri en agosto de 2019.",
+        "answer": "Elisa Carrió",
+        "incorrectAnswers": [
+            "Mauricio Macri",
+            "Axel Kiciloff"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "¿Quién dijo , refiriendosé al Riachuelo, \"vamos a ir allí a pasear en barco, a tomar mate, a bañarnos y a pescar\"?",
+        "description": "El entonces Presidente Menem exageró la eficacia de la política de saneamiento del Riachuelo que impulsó a principios de los 90s.",
+        "answer": "Carlos Menem",
+        "incorrectAnswers": [
+            "Mauricio Macri",
+            "Domingo Cavallo"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "¿Quién dijo \"que toda la Argentina se enamore de Christine Lagarde\"?",
+        "description": "En 2018, Mauricio Macri habló de \"la gran relación\" que tenía con la entonces titular del Fondo Monetario Internacional.",
+        "answer": "Mauricio Macri",
+        "incorrectAnswers": [
+            "Alfonso Prat-Gay",
+            "Nicolás Dujovne"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "¿Quién dijo \"solo hay que tenerle temor a Dios, y a mí un poquito también?",
+        "description": "La entonces presidenta Cristina Kirchner, en un discurso en 2012, le recordó a funcionarios nacionales dónde dirigir sus temores.",
+        "answer": "Cristina Kirchner",
+        "incorrectAnswers": [
+            "Mauricio Macri",
+            "Néstor Kirchner"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "Quién dijo \"en el gobierno hay funcionarios que no funcionan\"?",
+        "description": "En una carta publicada en redes sociales en octubre de 2020, la actual vicepresidenta usó esta frase para referirse a parte del gabinete de Alberto Fernández.",
+        "answer": "Cristina Kirchner",
+        "incorrectAnswers": [
+            "Santiago Cafiero",
+            "Aníbal Fernández"
+        ]
+    },
+    {
+        "topic": "Frases Memorables",
+        "text": "¿Quién dijo \"Suiza es más tranquilo, pero más aburrido\"?",
+        "description": "La ex titular del Ministerio de Seguridad dijo esta frase en agosto de 2021 al hablar sobre la inseguridad en Argentina.",
+        "answer": "Sabina Frederic",
+        "incorrectAnswers": [
+            "Aníbal Fernández",
+            "Sergio Berni"
         ]
     },
     {
@@ -411,32 +601,32 @@
     },
     {
         "topic": "Legislativas",
-        "text": "¿Cuál de las siguientes comisiones preside XXXXXX?",
-        "description": "Bullrich reingresó al Senado el 10 de diciembre de 2017. En ese mismo mes asumió la presidencia de la Comisión de Presupuesto.",
-        "answer": "Presupuesto y Hacienda",
+        "text": "¿Quién preside la Cámara de Diputados?",
+        "description": "Sergio Massa preside la Cámara de Diputados desde el 10 de diciembre de 2019.",
+        "answer": "Sergio Massa",
         "incorrectAnswers": [
-            "Educación y Cultura",
-            "Ciencia y Tecnología"
+            "Máximo Kirchner",
+            "Anibal Fernández"
         ]
     },
     {
         "topic": "Legislativas",
         "text": "¿Qué período legislativo comenzó el 1 de marzo de 2021?",
-        "description": "El primer período de sesiones fue en el año XXX y el mensaje fue dirigido por el entonces Presindete XXX",
-        "answer": 139,
+        "description": "El primer período de sesiones fue en el año 1862. El mensaje primer mensaje al Congreso fue dirigido en 1863 por el entonces Presindete Bartolomé Mitre.",
+        "answer": "139",
         "incorrectAnswers": [
-            125,
-            143
+            "125",
+            "143"
         ]
     },
     {
         "topic": "Legislativas",
         "text": "¿En qué año el Congreso sancionó más leyes?",
         "description": "En 2020, el Congreso sesionó 48 veces y aprobó 65 leyes, un 66% más de leyes que en 2019.",
-        "answer": 2020,
+        "answer": "2020",
         "incorrectAnswers": [
-            2019,
-            2021
+            "2019",
+            "2021"
         ]
     },
     {
@@ -452,7 +642,7 @@
     {
         "topic": "Legislativas",
         "text": "Además de legisladores y funcionarios autorizados ¿Quiénes pueden participar de una sesión secreta en el Congreso?",
-        "description": "Taquígrafas, taquígrafos, que juren guardar un secreto",
+        "description": "Taquígrafas y taquígrafos. Tienen que jurar guardar el secreto.",
         "answer": "Taquígrafos",
         "incorrectAnswers": [
             "Prensa autorizada por la cámara",
@@ -461,7 +651,7 @@
     },
     {
         "topic": "Legislativas",
-        "text": "¿Cuántas veces se puede renovar una banca en el congreso?",
+        "text": "¿Cuántas veces se puede renovar una banca en el Congreso?",
         "description": "Como en muchos otros países, las bancas en el Congreso pueden ser renovadas indefinidamente.",
         "answer": "No tiene límites",
         "incorrectAnswers": [
@@ -472,7 +662,7 @@
     {
         "topic": "Legislativas",
         "text": "Según la Constitución, ¿Qué renta anual es necesaria para aspirar a una banca en el Senado?",
-        "description": "Según el artículo 55 de la Constitución, para integrar el Senado es necesario \"disfrutar de una renta anual de dos mil pesos fuertes o de una entrada equivalente",
+        "description": "Según el artículo 55 de la Constitución, para integrar el Senado es necesario \"disfrutar de una renta anual de dos mil pesos fuertes o de una entrada equivalente\".",
         "answer": "2 mil pesos fuertes",
         "incorrectAnswers": [
             "2 mil dólares",
@@ -492,7 +682,7 @@
     {
         "topic": "Legislativas",
         "text": "¿Por qué cámara ingresan las iniciativas populares?",
-        "description": "Las iniciativas populares deben ingresar por la Cámara de Diputados. La cámara tiene la obligación de tratar el proyecto (para aprobarlo o rechazarlo) en el período legislativo en el que fue presentado.",
+        "description": "Las iniciativas populares deben ingresar por la Cámara de Diputados. La cámara tiene la obligación de tratar el proyecto, para aprobarlo o rechazarlo.",
         "answer": "Diputados",
         "incorrectAnswers": [
             "Senado",
@@ -511,72 +701,82 @@
     },
     {
         "topic": "Legislativas",
-        "text": "En la Cámara de Diputados, ¿Cuántas comisiones son presididas por mujeres en la actualidad?",
-        "description": "En la Cámara de Diputados XX comisiones sobre las XX son presididas por mujeres, el  XX por ciento",
-        "answer": 13,
+        "text": "¿Qué porcentaje del total de la Cámara de Diputados son mujeres?",
+        "description": "De acuerdo al Directorio Legislativo 2020-2021, 109 de 257 bancas están ocupadas por mujeres.",
+        "answer": "42%",
         "incorrectAnswers": [
-            17,
-            20
+            "38%",
+            "55%"
         ]
     },
     {
         "topic": "Legislativas",
-        "text": "En el Senado, ¿Cuántas comisiones son presididas por mujeres en la actualidad?",
-        "description": "En el Senado XX comisiones sobre las XX son presididas por mujeres, el  XX por ciento",
-        "answer": 10,
+        "text": "¿Cuál es la carrera universitaria más elegida por los actuales senadores del Congreso?",
+        "description": "De acuerdo al Directorio Legislativo 2020-2021, de un total de 72 senadoras, 38 estudiaron abogacía. Es la carrera universitaria más elegida en el Senado.",
+        "answer": "Abogacía",
         "incorrectAnswers": [
-            7,
-            12
+            "Ciencias Políticas",
+            "Ingeniería"
         ]
     },
     {
         "topic": "Legislativas",
-        "text": "ACTUALIZAR. ¿Cuáles son las comisiones que más frecuentemente fueron presididas por mujeres entre 2000 y 2018 en la Cámara de Diputados?",
-        "description": "Este dato surge de la información recabada en los 10 Directorios Legislativos.",
-        "answer": "Legislación Penal y Libertad de Expresión",
+        "text": "¿Qué porcentaje de los actuales diputados declaró haber tenido una actividad privada previa a asumir su banca?",
+        "description": "Este dato surge de la información recabada en el Directorio Legislativo 2020-2021.",
+        "answer": "53%",
         "incorrectAnswers": [
-            "Asuntos Constituionales y Cultura",
-            "Educación y Vivienda y Ordenamiento Urbano"
+            "37%",
+            "70%"
         ]
     },
     {
         "topic": "Legislativas",
-        "text": "ACTUALIZAR - ¿Qué porcentaje de bancas del Congreso fue ocupado por mujeres entre 2000 y 2018?",
-        "description": "Este dato surge de la información recabada en los 10 Directorios Legislativos.",
-        "answer": "XX",
+        "text": "¿Cuántos años tenía Carlos Menem cuando asumió como senador en 2017?",
+        "description": "Carlos Menem fue el senador de mayor edad en la historia del Congreso al asumir su cargo en 2017.",
+        "answer": "87",
         "incorrectAnswers": [
-            "XXX",
-            "XXX"
+            "84",
+            "81"
+        ]
+    },
+    {
+        "topic": "Legislativas",
+        "text": "De las cuatro autoridades de la Cámara de Diputados, ¿cuántas son mujeres?",
+        "description": "La última mujer que ocupó un cargo de autoridad de cámara fue la mendocina Patrica Gimenez que ocupó la vicepresidencia segunda, cargo que dejó en 2017.",
+        "answer": "0",
+        "incorrectAnswers": [
+            "1",
+            "2"
         ]
     },
     {
         "topic": "Legislativas",
         "text": "De las cinco autoridades de la Cámara de Senadores, ¿cuántas son mujeres?",
-        "description": "Dos: La vicepresidenta de la Nacion Gabriela Michetti e Inés Pilatti de Vergara.",
-        "answer": 2,
+        "description": "La presidenta es Cristina Kirchner,  Claudia Ledesma Abdala de Sgo del Estero es la presidenta provisional y Laura Rodríguez Machado de Córdoba es vicepresidenta segunda.",
+        "answer": "3",
         "incorrectAnswers": [
-            1,
-            0
+            "2",
+            "0"
         ]
     },
     {
         "topic": "Legislativas",
-        "text": "ACTUALIZAR - ¿En qué año el Congreso realizó más sesiones?",
-        "description": "En 2016 el Congreso sesionó en 43 ocasiones. En 2015 21, y en 2017, 32",
-        "answer": 2015,
+        "text": "¿Cuántos mandatos como diputada ha tenido Graciela Camaño?",
+        "description": "8 mandatos (1987-91; 1997-2001; 2001-02; 2003-07; 2007-11; 2011-15; 2015-19; 2019-2023).",
+        "answer": "8",
         "incorrectAnswers": [
-            2016,
-            2017
+            "7",
+            "6"
         ]
     },
     {
         "topic": "Legislativas",
         "text": "¿Cuántos legisladores han sido desaforados desde el retorno de la democracia?",
-        "description": "Formalmente fueron desaforados tres diputados: Angeloz, Patti y De Vido. Patti fue desaforado antes de que jure como diputado.",
-        "answer": 3,
+        "description": "Formalmente fueron desaforadas tres personas en la Cámara de Diputados: Angeloz, Patti y De Vido. Patti fue desaforado antes de jurar como diputado.",
+        "answer": "3",
         "incorrectAnswers": [
-            6,
-            1
+            "6",
+            "1"
         ]
     },
     {
@@ -592,7 +792,7 @@
     {
         "topic": "Legislativas",
         "text": "¿Cuál de las siguientes no es más senadora?",
-        "description": "Cristina Kirchner es la presidenta del Senado por su cargo en funciones: vicepresidenta de la Nación. Desde 2019, no es más senadora.",
+        "description": "Cristina Kirchner es la presidenta del Senado por su cargo en funciones como vicepresidenta de la Nación. Desde 2019, no es más senadora.",
         "answer": "Cristina Kirchner",
         "incorrectAnswers": [
             "Juliana Di Tullio",
@@ -602,10 +802,10 @@
     {
         "topic": "Legislativas",
         "text": "¿Cuántos períodos legislativos tiene vigencia un pedido de juicio político?",
-        "description": "Los pedidos de juicio político son proyectos de resolución con la particularidad de que, en vez de tener un año de vigencia, tienen 3.",
-        "answer": 3,
+        "description": "Los pedidos de juicio político son proyectos de resolución con la particularidad de que tienen 3 años de vigencia.",
+        "answer": "3",
         "incorrectAnswers": [
-            2,
+            "2",
             "No caducan"
         ]
     },
@@ -672,7 +872,7 @@
     {
         "topic": "Legislativas",
         "text": "¿Cuál fue el último presidente no bonaerense de la Cámara de Diputados?",
-        "description": "El útlmo presidente no bonaerense de la Cámara fue Eduardo Fellner. Luego lo sucedieron los bonaerenses Julián Dominguez y Emilio Monzó.",
+        "description": "El útlmo presidente no bonaerense de la Cámara fue Eduardo Fellner de Jujuy. Luego lo sucedieron los bonaerenses Julián Dominguez, Emilio Monzó y, ahora, Sergio Massa.",
         "answer": "Eduardo Fellner",
         "incorrectAnswers": [
             "Julián Domínguez",
@@ -681,12 +881,12 @@
     },
     {
         "topic": "Legislativas",
-        "text": "¿Qué bloque es la mayoría en el Senado?",
-        "description": "El bloque Justicialista, integrado por 20 senadores, es encabezado por Miguel Ángel Pichetto.",
-        "answer": "Justicialista",
+        "text": "¿Quién presidió la Cámara de Diputados entre 2015 y 2019?",
+        "description": "Emilio Monzó fue el presidente de la Cámara de Diputados desde diciembre de 2015 al 2019. Fue sucedido por Sergio Massa, que ocupa la presidencia hoy.",
+        "answer": "Emilio Monzó",
         "incorrectAnswers": [
-            "Unión Cívica Radical",
-            "PRO"
+            "Sergio Massa",
+            "Cristina Kirchner"
         ]
     },
     {
@@ -712,7 +912,7 @@
     {
         "topic": "Latinoamérica",
         "text": "¿Cuál de los siguientes países tienen un poder legislativo unicameral?",
-        "description": "Desde el año 1995, Perú tiene un Congreso unicameral. La eliminación de una cámara se estableció con la reforma  constitucional del 93.",
+        "description": "Desde el año 1995, Perú tiene un Congreso unicameral. La eliminación de una cámara se estableció con la reforma constitucional del 93.",
         "answer": "Perú",
         "incorrectAnswers": [
             "Bolivia",
@@ -772,7 +972,7 @@
     {
         "topic": "Latinoamérica",
         "text": "¿Cuál de los siguientes ex-presidentes de América Latina presentó su renuncia?",
-        "description": "En 2018, el ex-presidente de Paraguay, Horacio Cartés presentó su renuncia. Al no ser aceptada por el Congreso: Cartés la retirò y terminó su mandato como presidente.",
+        "description": "En 2018, el ex-presidente de Paraguay, Horacio Cartés presentó su renuncia. Al no ser aceptada por el Congreso: Cartés la retiró y terminó su mandato como presidente.",
         "answer": "Horacio Cartés",
         "incorrectAnswers": [
             "Michel Temer",
@@ -783,10 +983,10 @@
         "topic": "Latinoamérica",
         "text": "¿Cuántos Congresos en Sudamérica tienen sólo una Cámara?",
         "description": "Perú, Venezuela y Ecuador son los 3 países de Sudamérica con parlamentos unicamerales.",
-        "answer": 3,
+        "answer": "3",
         "incorrectAnswers": [
-            5,
-            1
+            "5",
+            "1"
         ]
     },
     {
@@ -812,7 +1012,7 @@
     {
         "topic": "Latinoamérica",
         "text": "¿En qué país no existe la segunda vuelta electoral?",
-        "description": "En México las elecciones se definen por cantidad de votos, la presidencia es de quien que supera en más de 1 voto a sus adversarios.",
+        "description": "En México las elecciones presidenciales se definen por cantidad de votos, la presidencia es de quien que supera en más de 1 voto a sus adversarios.",
         "answer": "México",
         "incorrectAnswers": [
             "Colombia",
@@ -831,7 +1031,7 @@
     },
     {
         "topic": "Latinoamérica",
-        "text": "¿En qué país los legisladores no pueden renunciar a sus bancas?",
+        "text": "¿En cuál de los siguientes países los legisladores no pueden renunciar a sus bancas?",
         "description": "Según la Constitución peruana, los cargos legislativos son irrenunciables.",
         "answer": "Perú",
         "incorrectAnswers": [
@@ -872,7 +1072,7 @@
     {
         "topic": "Latinoamérica",
         "text": "¿En qué país de América Latina el segundo candidato a presidente más votado obtiene como compensación una banca en el Senado?",
-        "description": "En el 2015 Colombia aprobó la Reforma de Equilibrio de Poderes que estableció que la segunda pareja con más votos en las elecciones presidenciales obtendría de manera automática dos bancas en el Senado.",
+        "description": "En el 2015 Colombia aprobó la Reforma de Equilibrio de Poderes según la cual la segunda pareja con más votos en las elecciones presidenciales obtiene dos bancas en el Senado.",
         "answer": "Colombia",
         "incorrectAnswers": [
             "El Salvador",
@@ -881,18 +1081,118 @@
     },
     {
         "topic": "Latinoamérica",
-        "text": "¿Cuál de los siguientes Congresos tiene mayor porcentaje de legisladoras mujeres?",
-        "description": "Sobre 329 legisladores (senadores + diputados), el Congreso argentino cuenta 128 mujeres (38%). En Chile, hay 44 legisladoras mujeres sobre 198 en total (22%) y en Brasil, 67 mujeres sobre 594 (11%).",
-        "answer": "Argentina",
+        "text": "¿Qué presidente de la región se autodenomina \"el Dictador más cool del mundo mundial\" en Twitter?",
+        "description": "Luego de una serie de manifestaciones en 2021, y ante quienes lo tildaron de \"dictador\", Nayib Bukele cambio su descripción en twitter.",
+        "answer": "Nayib Bukele (El Salvador)",
         "incorrectAnswers": [
-            "Chile",
-            "Brasil"
+            "Alejandro Giammattei (Guatemala)",
+            "Daniel Ortega (Nicaragua)"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿El poder legislativo de que país se llama \"Asamblea Nacional del Poder Popular\"?",
+        "description": "Según la Constitución cubana, la Asamblea Nacional del Poder Popular es el único poder del cual emana la soberanía en el país.",
+        "answer": "Cuba",
+        "incorrectAnswers": [
+            "Venezuela",
+            "Nicaragua"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Quién es el presidente de Cuba?",
+        "description": "Miguel Mario Díaz-Canel Bermúdez es presidente de Cuba desde octubre de 2019 y primer secretario del Partido Comunista de Cuba, ​ elegido por la Asamblea en sustitución de Raúl Castro",
+        "answer": "Miguel Díaz-Canel",
+        "incorrectAnswers": [
+            "Fidel Castro",
+            "Laurentino Cortizo"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Cuantos candidatos opositores encarceló el gobierno de Daniel Ortega en 2021 para impedir su participación en las elecciones presidenciales de 2021?",
+        "description": "Entre los detenidos figuran 7 precandidatos presidenciales, acusados de “traicionar a la patria”. También fueron detenidos históricos miembros del sandinismo, activistas, empresarios y periodistas.",
+        "answer": "37",
+        "incorrectAnswers": [
+            "8",
+            "55"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Qué presidente latinoamericano interrumpió su discurso y se sacó una selfie durante su discurso en la Asamblea General de las Naciones Unidas en 2019?",
+        "description": "Durante la la Asamblea General 74º de la ONU, en 2019, el presidente de El Salvador, Nayib Bukele, se tomó una selfie antes de su discurso para marcar la \"desactualización\" del formato de la Asamblea.",
+        "answer": "Nayib Bukele",
+        "incorrectAnswers": [
+            "Andrés Manuel López Obrador",
+            "Nicolás Maduro"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Cuál fue el Jefe de Estado que ingresó al Congreso, interrumpiendo la sesión en la que se trataba un proyecto de su interés?",
+        "description": "En 2020,  Nayib Bukele ingresó a la Asamblea Nacional de El Salvador con tropas del Ejército Nacional para presionar a la oposición por la aprobación de un crédito para financiar su plan contra la delincuencia,",
+        "answer": "Nayib Bukele",
+        "incorrectAnswers": [
+            "Nicolás Maduro",
+            "Daniel Ortega"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Cuál de los siguientes presidentes no dio positivo por COVID-19 a lo largo de la pandemia?",
+        "description": "El presidente de Colombia no se ha contagiado de COVID-19 hasta el momento. En contrapartida, Jair Bolsonaro y Andrés Manuel López Obrador sufrieron sintomas leves por la enfermedad.",
+        "answer": "Iván Duque",
+        "incorrectAnswers": [
+            "Jair Bolsonaro",
+            "Andres Manuel López Obrador"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Qué mandatario declaró recientemente el comienzo de la Navidad en su país?",
+        "description": "El 5 de octubre de 2021. el Presidente Nicolás Maduro anunció la llegada de la Navidad a Venezuela. \"Llegó la Navidad, empezando octubre\", dijo el mandatario.",
+        "answer": "Nicolás Maduro",
+        "incorrectAnswers": [
+            "Iván Duque",
+            "Daniel Ortega"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Quién es el Presidente de Costa Rica?",
+        "description": "Carlos Alvarado es presidente de Costa Rica desde el 8 de mayo de 2018. Su mandato de 4 años finaliza en 2022.",
+        "answer": "Carlos Alvarado",
+        "incorrectAnswers": [
+            "Alejandro Giammattei",
+            "Laurentino Cortizo"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Cuál de estos países no forma parte de la Comunidad Andina?",
+        "description": "Los integrantes de la Comunidad Andina son Colombia, Bolivia, Ecuador y Perú.",
+        "answer": "Chile",
+        "incorrectAnswers": [
+            "Perú",
+            "Ecuador"
+        ]
+    },
+    {
+        "topic": "Latinoamérica",
+        "text": "¿Cuál de estos países no forma parte de la Alianza del Pacífico?",
+        "description": "Los integrantes de la Alianza del Pacífico son Chile, Colombia, Perú y México.",
+        "answer": "Ecuador",
+        "incorrectAnswers": [
+            "Colombia",
+            "Chile"
         ]
     },
     {
         "topic": "Elecciones 2021",
         "text": "¿Por qué distrito es candidato Diego Santilli?",
-        "description": "Diego Santilli encabeza la lista de Diputados de Juntos por el Cambio. RECORRIDO",
+        "description": "Diego Santilli encabeza la lista de Diputados de Juntos por el Cambio. En 2019 fue electo vicejefe de la Ciudad de Buenos Aires.",
         "answer": "Buenos Aires",
         "incorrectAnswers": [
             "Ciudad de Buenos Aires",
@@ -901,21 +1201,21 @@
     },
     {
         "topic": "Elecciones 2021",
-        "text": "¿Por qué distrito es candidato PJ SANTA FE?",
-        "description": "Martín Llaryora es vicegobernador de Córdoba en licencia.",
-        "answer": "Martín Llaryora",
+        "text": "¿Por qué distrito es candidato Roberto Mirabella?",
+        "description": "Roberto Mirabella es candidato a diputado por la Provincia de Santa Fe. Actualemente es Senador del bloque del Frente de Todos.",
+        "answer": "Santa Fe",
         "incorrectAnswers": [
-            "Martín Maquieyra",
-            "Diego Mestre"
+            "Ciudad de Buenos Aires",
+            "Córdoba"
         ]
     },
     {
         "topic": "Elecciones 2021",
-        "text": "¿Quién es presidente del Bloque Justicialista en Diputados?",
-        "description": "Pablo Kosiner es vicepresidente del Bloque Justicialista en la Cámara de Diputados.",
-        "answer": "Pablo Kosiner",
+        "text": "¿Quién es presidente del Bloque del Frente de Todos en la Cámara de Diputados?",
+        "description": "Máximo Kirchner es el prsidente del Bloque, desde diciembre de 2019.",
+        "answer": "Máximo Kirchner",
         "incorrectAnswers": [
-            "Diego Bossio",
+            "Mayra Mendoza",
             "Oscar Romero"
         ]
     },
@@ -933,10 +1233,10 @@
         "topic": "Elecciones 2021",
         "text": "¿Cuántas bancas pertenecen a la provincia de Buenos Aires en la Cámara de Diputados?",
         "description": "El número de diputados por distrito es proporcional a su población. Se eligen mediante el sistema proporcional D'Hont",
-        "answer": 70,
+        "answer": "70",
         "incorrectAnswers": [
-            60,
-            50
+            "60",
+            "50"
         ]
     },
     {
@@ -951,8 +1251,8 @@
     },
     {
         "topic": "Elecciones 2021",
-        "text": "¿Por qué distrito es candidato Diego Santilli?",
-        "description": "Diego Santilli encabeza la lista de Diputados de Juntos por el Cambio. RECORRIDO",
+        "text": "¿Por qué distrito es candidata Victoria Tolosa Paz?",
+        "description": "Victoria Tolosa Paz encabeza la lista como candidata a diputada del Frente de Todos. Actualmente, es Secretaria Ejecutiva​ del Consejo Nacional de Coordinación de Políticas Sociales.",
         "answer": "Buenos Aires",
         "incorrectAnswers": [
             "Ciudad de Buenos Aires",
@@ -961,32 +1261,12 @@
     },
     {
         "topic": "Elecciones 2021",
-        "text": "¿Por qué distrito es candidato PJ SANTA FE?",
-        "description": "Martín Llaryora es vicegobernador de Córdoba en licencia.",
-        "answer": "Martín Llaryora",
+        "text": "¿Por qué distrito es candidata María Eugenia Vidal?",
+        "description": "María Eugenia Vidal encabeza la lista como candidata a diputada de Juntos por el Cambio en la Ciudad de Buenos Aires. Anteriormente, fue Gobernadora de la Provincia.",
+        "answer": "Ciudad de Buenos Aires",
         "incorrectAnswers": [
-            "Martín Maquieyra",
-            "Diego Mestre"
-        ]
-    },
-    {
-        "topic": "Elecciones 2021",
-        "text": "¿Por qué distrito es candidato Diego Santilli?",
-        "description": "Diego Santilli encabeza la lista de Diputados de Juntos por el Cambio. RECORRIDO",
-        "answer": "Buenos Aires",
-        "incorrectAnswers": [
-            "Ciudad de Buenos Aires",
-            "Santa Fe"
-        ]
-    },
-    {
-        "topic": "Elecciones 2021",
-        "text": "¿Por qué distrito es candidato PJ SANTA FE?",
-        "description": "Martín Llaryora es vicegobernador de Córdoba en licencia.",
-        "answer": "Martín Llaryora",
-        "incorrectAnswers": [
-            "Martín Maquieyra",
-            "Diego Mestre"
+            "Buenos Aires",
+            "Córdoba"
         ]
     },
     {
@@ -1007,6 +1287,206 @@
         "incorrectAnswers": [
             "Por Tercios",
             "Se renueva por completo"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Quiénes de los siguientes grupos sociales no tienen la obligación de votar?",
+        "description": "Las personas mayores de 70 no reciben sanciones si no se presentan a votar.",
+        "answer": "Mayores de 70 años",
+        "incorrectAnswers": [
+            "Médicos de guardia",
+            "Fuerzas de seguridad"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuál de estos documentos puedo presentar para votar?",
+        "description": "Para votar se puede presentar el DNI que figura en el padrón o una versión posterior. También se aceptan la Libreta de Enrolamiento o la Libreta Cívica, si son los que figuran en el Padrón.",
+        "answer": "DNI",
+        "incorrectAnswers": [
+            "Pasaporte",
+            "Partida de nacimiento"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cómo se financian las campañas electorales?",
+        "description": "En Argentina, las campañas electorales de los partidos políticos se financian con un modelo mixto por el cual los partidos obtienen financiamiento público y del sector privado.",
+        "answer": "Aportes públicos y privados",
+        "incorrectAnswers": [
+            "Aportes públicos",
+            "Aportes privados"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuál es la multa por no votar en las Primarias (PASO)?",
+        "description": "La multa por no votar en un acto electoral es de cincuenta pesos ($50). Si no se registra tu voto ni en las primarias ni en las elecciones generales, la multa total es de ciento cincuenta pesos ($150).",
+        "answer": "50 pesos",
+        "incorrectAnswers": [
+            "500 pesos",
+            "5000 pesos"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuál es la pena si siendo autoridad de mesa no te presentás?",
+        "description": "Si fuiste desgnada-o autoridad de mesa, presentarse es una obligación cívica.  No presentarse es un delito electoral que tiene una pena de prisión de seis meses a dos años.",
+        "answer": "Prisión de 6 meses a 2 años",
+        "incorrectAnswers": [
+            "Nada, no hay",
+            "Pagar una multa"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cómo se llaman las personas designadas por los partidos políticos que están en las Mesas Electorales?",
+        "description": "Las-os fiscales de mesa son designadas-os por los partidos políticos para controlar la elección. Su función es vigilar que se respete la Ley Electoral y cuidar las boletas de su partido.",
+        "answer": "Fiscales",
+        "incorrectAnswers": [
+            "Suplentes",
+            "Partidistas"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Las donaciones privadas a una campaña política tienen tope?",
+        "description": "Los partidos no pueden recibir de una misma persona (humana o jurídica) un monto superior al dos por ciento (2%) de los gastos permitidos para la campaña.",
+        "answer": "Sí",
+        "incorrectAnswers": [
+            "No",
+            "Depende de la provincia"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Todos los partidos reciben el mismo dinero por parte del Estado?",
+        "description": "La Ley establece el reparto de los fondos públicos: el 50% de los fondos se distribuyen de forma igualitaria, y el otro 50% se distribuye en forma proporcional de acuerdo al resultado de la elección anterior.",
+        "answer": "No",
+        "incorrectAnswers": [
+            "Sí",
+            "Depende de la provincia"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Por qué distrito es candidato Facundo Manes?",
+        "description": "Facundo Manes integra la lista de Diputados de Juntos por el Cambio. Nunca antes ha ocupado un cargo público.",
+        "answer": "Buenos Aires",
+        "incorrectAnswers": [
+            "Ciudad de Buenos Aires",
+            "Santa Fe"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Por qué distrito es candidato Leandro Santoro?",
+        "description": "Leandro Santoro encabeza la lista del Frente de Todos en la Ciudad de Buenos Aires. Actualemente, es Legislador Porteño.",
+        "answer": "Ciudad de Buenos Aires",
+        "incorrectAnswers": [
+            "Santa Fe",
+            "Córdoba"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Qué día asumen su mandato los legisladores electos el 14 de noviembre de 2021?",
+        "description": "Legisladores y legisladoras electas asumirán sus bancas el 10 de diciembre de 2021.",
+        "answer": "El 10 de diciembre",
+        "incorrectAnswers": [
+            "El 15 de noviembre",
+            "El 31 de diciembre"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuánto dura el mandato de un/a diputado/a de la Nación?",
+        "description": "Las y los diputados tienen un mandato de 4 años",
+        "answer": "4 años",
+        "incorrectAnswers": [
+            "6 años",
+            "5 años"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuánto dura el mandato de un/a senador/a de la Nación?",
+        "description": "Las y los senadores tienen un mandato de 6 años",
+        "answer": "6 años",
+        "incorrectAnswers": [
+            "4 años",
+            "Vitalicio"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Las personas electas para el Congreso pueden ser reelectas?",
+        "description": "Las bancas en el Congreso Nacional pueden renovarse indefinidamente en ambas cámaras.",
+        "answer": "Sí",
+        "incorrectAnswers": [
+            "No",
+            "Solo en Diputados"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Quién elige al presidente de la Cámara de Diputados?",
+        "description": "La Presidencia de la Cámara de Diputados se vota entre las y los legisladores que integran el cuerpo. El presidente debe ser una persona con mandato vigente en la Cámara.",
+        "answer": "la Cámara de Diputados",
+        "incorrectAnswers": [
+            "El presidente",
+            "El presidente con acuerdo de la Corte"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuánto tiempo dura el mandato del diputado que es electo presidente de la Cámara de Diputados?",
+        "description": "La Presidencia de la Cámara de Diputados debe renovarse todos los años, con reelección indefinida.",
+        "answer": "1 año",
+        "incorrectAnswers": [
+            "4 años",
+            "6 años"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cúantos bancas en la Cámara de Diputados renueva la provincia de Buenos Aires?",
+        "description": "Si bien la provincia de Buenos Aires tiene 70 bancas, cada dos años se renueva por mitades. Así, en 2021 se elegirán 35 bancas en la Cámara.",
+        "answer": "35",
+        "incorrectAnswers": [
+            "70",
+            "40"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuántos Diputados renueva la Ciudad Autónoma de Buenos Aires?",
+        "description": "Si bien la Ciudad de Buenos Aires tiene 25 bancas, cada dos años se renueva por mitades. Así, en 2021 se elegirán 13 bancas en la Cámara.",
+        "answer": "13",
+        "incorrectAnswers": [
+            "15",
+            "25"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuántas provincias eligen Diputados?",
+        "description": "Hay elecciones en 24  distritos electorales, pero solo 23 de ellos son provincias. Si bien coloquialmente se menciona a la Ciudad Autónoma de Buenos Aires como una provinca, estrictamente no lo es.",
+        "answer": "23",
+        "incorrectAnswers": [
+            "24",
+            "8"
+        ]
+    },
+    {
+        "topic": "Elecciones 2021",
+        "text": "¿Cuántos senadores se eligen por la Ciudad Autónoma de Buenos Aires en 2021?",
+        "description": "Ninguno. La Ciudad Autónoma de Buenos Aires no elige senadores nacionales en 2021, sino en 2025.",
+        "answer": "0",
+        "incorrectAnswers": [
+            "3",
+            "2"
         ]
     }
 ]
