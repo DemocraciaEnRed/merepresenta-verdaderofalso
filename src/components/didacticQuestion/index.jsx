@@ -35,8 +35,10 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
       <Logo topic={topic} />
       <Topic topic={topic}/>
       <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
-      <Progress currentQuestionNumber={currentQuestionNumber} questionCount={questionCount} topic={topic}/>
-      <FooterSeparator />
+      <div className="footer navbar fixed-bottom">
+        <Progress currentQuestionNumber={currentQuestionNumber} questionCount={questionCount} topic={topic}/>
+        <FooterSeparator />
+      </div>
       <DidacticModal
         show={answered}
         question={question}
