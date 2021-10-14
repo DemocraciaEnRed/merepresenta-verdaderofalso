@@ -37,7 +37,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
       <Topic topic={topic}/>
       <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
       <Footer>
-        <Progress currentQuestionNumber={currentQuestionNumber} questionCount={questionCount} topic={topic}/>
+        <Progress current={currentQuestionNumber} total={questionCount} topic={topic}/>
         <FooterSeparator />
       </Footer>
       <DidacticModal
