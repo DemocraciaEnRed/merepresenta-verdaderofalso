@@ -33,7 +33,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
   };
 
   return (
-    <WithBackground background={Background}>
+    <WithBackground background={Background} light>
       <Logo topic={topic} />
       <Topic topic={topic}/>
       <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
