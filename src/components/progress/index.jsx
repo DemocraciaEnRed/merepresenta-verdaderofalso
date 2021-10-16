@@ -2,10 +2,10 @@ import React from "react";
 import WithTopicColor from "../withTopicColor";
 import "./index.css";
 
-const CurrentNumber = ({ color, current }) => <span style={{ "color": color }}>{current + 1}</span>;
-const OfTotal = ({ total }) => <span> de {total}</span>
+const CurrentNumber = ({ color, current }) => <span style={{ "color": color }}>{current}</span>;
+const OfTotal = ({ total }) => <span> de {total}</span>;
 
-const Progress = ({ current, total, topic }) => {
+const Progress = ({ current, total, topic, color }) => {
   const isFinalOne = !topic;
   return <div className={isFinalOne && "final"}>
     {
@@ -14,7 +14,7 @@ const Progress = ({ current, total, topic }) => {
           render={color => <CurrentNumber color={color} current={current}/>}
           topic={topic}
         />
-      : <CurrentNumber color="red" current={current} />
+      : <CurrentNumber color={color} current={current} />
     }
     <OfTotal total={total} />
   </div>;

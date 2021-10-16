@@ -1,0 +1,44 @@
+.result {
+  margin-top: .5rem;
+}
+
+.score-container {
+  color: white;
+  font-size: 14px;
+}
+
+.score-description {
+  margin-top: 1rem;
+}
+
+.play-again {
+  margin: 1rem 0 1rem;
+}
+
+.meme {
+  margin-top: .5rem;
+}
+
+.more-info {
+  margin-bottom: 0;
+}
+
+.merepresenta-button {
+  margin: .5rem 0 3rem;
+}
+
+.social-networks-logos {
+  margin-bottom: 1rem;
+}
+
+.social-networks-logos>* {
+  margin: .5rem 0 .5rem;
+}
+
+.twitter {
+  margin-left: 3rem;
+}
+
+.score-footer {
+  padding-bottom: 2rem;
+}
