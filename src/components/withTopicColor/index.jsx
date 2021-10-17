@@ -1,13 +1,6 @@
 import React from "react";
 import _ from "lodash";
-
-const topicColors = {
-  "Frases Memorables": "FB2D11",
-  "Política Nacional": "4BD6F7",
-  "Legislativas": "F7A334",
-  "Latinoamérica": "32F991",
-  "Elecciones 2021": "9F47FC"
-};
+import topicColors from "../../helpers/topicColors";
 
 const WithTopicColor = ({ render, topic }) => {
   const color = `#${_.get(topicColors, topic)}`;
