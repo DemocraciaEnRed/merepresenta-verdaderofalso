@@ -7,7 +7,7 @@ const OfTotal = ({ total }) => <span> de {total}</span>;
 
 const Progress = ({ current, total, topic, color }) => {
   const isFinalOne = !topic;
-  return <div className={isFinalOne && "final"}>
+  return <div className={isFinalOne? "final" : ""}>
     {
       !isFinalOne?
         <WithTopicColor
