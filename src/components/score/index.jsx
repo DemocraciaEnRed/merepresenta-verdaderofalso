@@ -66,11 +66,15 @@ const Score = ({ score, setPlayAgain }) => {
       <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
       <p>o</p>
       <p className="more-info">Encontrá más info sobre las elecciones en: </p>
-      <Button className="col-md-3 col-sm-4 col-10 merepresenta-button" variant="light">#MEREPRESENTA</Button>
+      <Button target="_blank" href="https://merepresenta.info/" className="col-md-3 col-sm-4 col-10 merepresenta-button" variant="light">#MEREPRESENTA</Button>
       <p>Para conocer lo que hacemos seguinos en:</p>
       <div className="social-networks-logos">
-        <InstagramLogo alt="instagram"/>
-        <TwitterLogo alt="twitter" className="twitter"/>
+        <a href="https://www.instagram.com/democraciaenred" target="_blank">
+          <InstagramLogo alt="instagram" />
+        </a>
+        <a href="https://twitter.com/fundacionDER" target="_blank" className="twitter">
+          <TwitterLogo alt="twitter" />
+        </a>
       </div>
       <div className="score-footer"><Separator color="white" /></div>
     </div>
