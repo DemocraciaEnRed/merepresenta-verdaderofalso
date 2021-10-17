@@ -1,0 +1,13 @@
+.landing-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(2);
+  color: white;
+}
+
+.game-name {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -5px;
+}
