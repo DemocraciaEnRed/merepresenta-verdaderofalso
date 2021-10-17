@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import _ from "lodash";
 import WithBackground from "../withBackground";
+import WithFooter from "../withFooter";
 import Background from '../../images/scoreBackground.svg';
 import Logo from "../logo";
 import Progress from '../progress';
@@ -42,9 +43,6 @@ const resultsByScore = [
   }
 ];
 
-//TODO reuse
-const Footer = ({ children }) => <div style={{position: "absolute", bottom: 0, width: "100%", height: "4rem"}}>{children}</div>;
-
 const resultByScore = score => _.find(resultsByScore, ({ max }) => score <= max);
 
 const ProgressWithResultColor = ({ score }) => {
@@ -57,8 +55,8 @@ const ProgressWithResultColor = ({ score }) => {
 const Score = ({ score, setPlayAgain }) => {
   const { meme, description, secondayDescription } = resultByScore(score);
   return <WithBackground background={Background}>
-    <div className="score-container">
-      <div style={{paddingBottom: "4rem"}}>
+    <WithFooter color="white">
+      <div className="score-container">
         <Logo color="white"/>
         <Separator color="white" />
         <div className="result"><ProgressWithResultColor score={score}/></div>
@@ -72,19 +70,14 @@ const Score = ({ score, setPlayAgain }) => {
         <p className="more-info">Encontrá más info sobre las elecciones en: </p>
         <Button target="_blank" href="https://merepresenta.info/" className="col-md-3 col-sm-4 col-10 merepresenta-button" variant="light">#MEREPRESENTA</Button>
         <p>Para conocer lo que hacemos seguinos en:</p>
-        <div className="social-networks-logos">
-          <a href="https://www.instagram.com/democraciaenred" target="_blank">
-            <InstagramLogo alt="instagram" />
-          </a>
-          <a href="https://twitter.com/fundacionDER" target="_blank" className="twitter">
-            <TwitterLogo alt="twitter" />
-          </a>
-        </div>
+        <a href="https://www.instagram.com/democraciaenred" target="_blank">
+          <InstagramLogo alt="instagram" />
+        </a>
+        <a href="https://twitter.com/fundacionDER" target="_blank" className="twitter">
+          <TwitterLogo alt="twitter" />
+        </a>
       </div>
-      <Footer>
-        <Separator color="white" />
-      </Footer>
-    </div>
+    </WithFooter>
   </WithBackground>
 };
 

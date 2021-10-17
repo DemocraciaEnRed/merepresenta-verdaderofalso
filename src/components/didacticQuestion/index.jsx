@@ -8,11 +8,8 @@ import Logo from "../logo";
 import "./index.css";
 import Background from '../../images/roundBackground.svg';
 import WithBackground from "../withBackground";
+import WithFooter from "../withFooter";
 import Progress from "../progress";
-import Separator from "../separator";
-
-const FooterSeparator = () => <Separator />;
-const Footer = ({ children }) => <div className="footer navbar fixed-bottom">{children}</div>;
 
 export default function DidacticQuestion({ question, moveToNext, currentQuestionNumber, questionCount }) {
   const [answered, setAnswered] = useState(false);
@@ -32,21 +29,21 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
     setAnswerIsOk(isCorrect);
   };
 
+  const FooterContent = <Progress current={currentQuestionNumber+1} total={questionCount} topic={topic}/>;
+
   return (
     <WithBackground background={Background} light>
-      <Logo topic={topic} />
-      <Topic topic={topic}/>
-      <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
-      <Footer>
-        <Progress current={currentQuestionNumber+1} total={questionCount} topic={topic}/>
-        <FooterSeparator />
-      </Footer>
-      <DidacticModal
-        show={answered}
-        question={question}
-        answerIsOk={answerIsOk}
-        descriptionRead={() => moveToNext(answerIsOk)}
-      />
+      <WithFooter content={FooterContent}>
+        <Logo topic={topic} />
+        <Topic topic={topic}/>
+        <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
+        <DidacticModal
+          show={answered}
+          question={question}
+          answerIsOk={answerIsOk}
+          descriptionRead={() => moveToNext(answerIsOk)}
+        />
+      </WithFooter>
     </WithBackground>
   );
 }
