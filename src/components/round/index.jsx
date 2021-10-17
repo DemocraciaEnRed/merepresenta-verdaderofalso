@@ -37,7 +37,7 @@ export default function Round({ setPlayAgain }) {
           currentQuestionNumber={currentQuestionNumber}
         />
         : <Score score={score} setPlayAgain={setPlayAgain}/>
-      }      
+      }   
     </div>
   );
 };
