@@ -48,7 +48,7 @@ export default function Round({ setPlayAgain }) {
             </div>
           }
         </WithBackground>
-        : <Score score={score} setPlayAgain={setPlayAgain}/>
+        : <Score score={score} total={questionsCount} setPlayAgain={setPlayAgain}/>
       }
     </div>
   );
