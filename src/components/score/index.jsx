@@ -25,19 +25,19 @@ const resultsByScore = [
     meme: bad,
     color: "FB2D11",
     description: "no importa este resultado, es importante  prepararte para las Elecciones Legislativas 2021 y para eso entrá a #MeRepresenta.",
-    secondayDescription: "El día de las elecciones, todas la personas tenemos el mismo peso: un poderoso y una empleada, una CEO y un cartonero. Esa igualdad es la esencia de nuestro sistema"
+    secondayDescription: "El día de las elecciones, todas las personas tenemos el mismo peso: un poderoso y una empleada, una CEO y un cartonero. Esa igualdad es la esencia de nuestro sistema"
   },
   {
     max: 6,
     meme: good,
     color: "EEFF26",
-    description: "poco conocimiento de política argentina, igual tenes que votar! Pasa por #MeRepresenta para saber todo sobre las Elecciones Legislativas 2021"
+    description: "poco conocimiento de política argentina, igual tenes que votar! Pasá por #MeRepresenta para saber todo sobre las Elecciones Legislativas 2021"
   },
   {
     max: 8,
     meme: veryGood,
     color: "F7A334",
-    description: "sos un gran conocedor de la política argentina, para saber todo sobre las Elecciones Legislativas 2021, entrá a #MeRepresenta"
+    description: "sos un gran conocedor de la política argentina. para saber todo sobre las Elecciones Legislativas 2021, entrá a #MeRepresenta"
   },
   {
     max: 10,
