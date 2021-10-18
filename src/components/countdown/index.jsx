@@ -22,7 +22,7 @@ const Countdown = ({ setIsLoading }) => {
 
   return <div>
     <Logo />
-    <p className="ready">¿Listo?</p>
+    <p className="ready">Empezamos en...</p>
     <p
       key={loadingNumber}
       className="centered countdown-number animate__animated animate__fadeOut"

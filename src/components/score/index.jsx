@@ -14,7 +14,7 @@ import Separator from '../separator';
 import bad from '../../images/scoreMemes/bad.png';
 import good from '../../images/scoreMemes/good.png';
 import veryGood from '../../images/scoreMemes/veryGood.png';
-import excellent from '../../images/scoreMemes/excellent.gif';
+import excellent from '../../images/scoreMemes/excellent.png';
 import { ReactComponent as InstagramLogo } from "../../images/instagramLogo.svg";
 import { ReactComponent as TwitterLogo } from "../../images/twitterLogo.svg";
 import "./index.css";
@@ -24,26 +24,29 @@ const resultsByScore = [
     max: 4,
     meme: bad,
     color: "FB2D11",
-    description: "no importa este resultado, es importante  prepararte para las Elecciones Legislativas 2021 y para eso entrá a #MeRepresenta.",
-    secondayDescription: "El día de las elecciones, todas las personas tenemos el mismo peso: un poderoso y una empleada, una CEO y un cartonero. Esa igualdad es la esencia de nuestro sistema"
+    description: "Bueno, no importa este resultado, lo importante es que te prepares para las Elecciones Generales 2021.",
+    secondayDescription: "Pasá por #MeRepresenta para saber todo sobre las Elecciones Generales 2021"
   },
   {
     max: 6,
     meme: good,
     color: "EEFF26",
-    description: "poco conocimiento de política argentina, igual tenes que votar! Pasá por #MeRepresenta para saber todo sobre las Elecciones Legislativas 2021"
+    description: "Tenés poco conocimiento de política argentina, y en noviembre tenés que votar.",
+    secondayDescription: "Pasá por #MeRepresenta para saber todo sobre las Elecciones Generales 2021"
   },
   {
     max: 8,
     meme: veryGood,
     color: "F7A334",
-    description: "sos un gran conocedor de la política argentina. para saber todo sobre las Elecciones Legislativas 2021, entrá a #MeRepresenta"
+    description: "Bien, se nota que seguís la política argentina.",
+    secondayDescription: "Para saber más sobre las Elecciones Generales 2021, entrá a #MeRepresenta"
   },
   {
     max: 10,
     meme: excellent,
     color: "32F991",
-    description: "EXCELENTE! Entra a #MeRepresenta para seguir nutriendo tu conocimiento con información sobre las Elecciones Legislativas 2021"
+    description: "Felicitaciones, tenés mucho conocimiento de la política argentina.",
+    secondayDescription: "Para saber aún más sobre las Elecciones Generales 2021, entrá a #MeRepresenta"
   }
 ];
 
@@ -65,11 +68,13 @@ const FinalLoading = ({ setDoneLoading }) => {
     if (backgroundNumber == 3)
       setDoneLoading(true);
   }
-  setTimeout(moveBackground, 800)
+  setTimeout(moveBackground, 1000)
 
   return <WithBackground key={backgroundNumber} background={background} className="loading-background">
     <Logo color="white"/>
-    <IconSvg fill="white" className="centered loading-logo"/>
+    <div className="centered">
+      <IconSvg fill="white" className="loading-logo"/>
+    </div>
   </WithBackground>
 };
 
