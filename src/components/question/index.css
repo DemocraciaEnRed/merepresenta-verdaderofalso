@@ -7,12 +7,12 @@
 }
 
 .option-button {
-  font-family: General Sans Medium;
   margin: 0 auto;
   padding: .575rem .75rem;
 }
 
 .option-text {
+  font-family: General Sans Medium;
   font-size: smaller;
 }
 
