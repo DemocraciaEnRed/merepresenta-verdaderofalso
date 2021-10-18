@@ -13,7 +13,7 @@ const Option = ({ onOptionSelected, option }) =>
   </Button>
 
 const Question = ({ question, options, onOptionSelected }) => (
-  <div className="col-10">
+  <div className="col-10 animate__animated animate__fadeIn">
     <p className="question">{question.text}</p>
     <MobileSizeContainer>
       {options.map((option, number) =>
