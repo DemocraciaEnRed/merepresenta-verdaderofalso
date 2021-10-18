@@ -13,6 +13,11 @@ html, body, #root, .App, .App>div, .game-container, .full-height {
 }
 
 @font-face {
+  font-family: 'Nippo Bold';
+  src: local('Nippo Bold'), url(./fonts/Nippo-Bold.woff) format('woff');
+}
+
+@font-face {
   font-family: 'General Sans Medium';
   src: local('General Sans Medium'), url(./fonts/GeneralSansMedium.woff) format('woff');
 }
