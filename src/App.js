@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import Landing from "./components/landing";
 import Topics from "./components/topics";
-import "./App.css"
+import "./App.css";
+import 'animate.css';
 
 function App() {
   const [currentStep, setCurrentStep] = useState("landing");

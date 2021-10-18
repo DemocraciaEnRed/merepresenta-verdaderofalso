@@ -6,8 +6,6 @@ import DidacticModal from "../didacticModal";
 import Topic from "../topic";
 import Logo from "../logo";
 import "./index.css";
-import Background from '../../images/roundBackground.svg';
-import WithBackground from "../withBackground";
 import WithFooter from "../withFooter";
 import Progress from "../progress";
 
@@ -31,19 +29,15 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
 
   const FooterContent = <Progress current={currentQuestionNumber+1} total={questionCount} topic={topic}/>;
 
-  return (
-    <WithBackground background={Background} light>
-      <WithFooter content={FooterContent}>
-        <Logo topic={topic} />
-        <Topic topic={topic}/>
-        <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
-        <DidacticModal
-          show={answered}
-          question={question}
-          answerIsOk={answerIsOk}
-          descriptionRead={() => moveToNext(answerIsOk)}
-        />
-      </WithFooter>
-    </WithBackground>
-  );
+  return <WithFooter content={FooterContent}>
+    <Logo topic={topic} />
+    <Topic topic={topic}/>
+    <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
+    <DidacticModal
+      show={answered}
+      question={question}
+      answerIsOk={answerIsOk}
+      descriptionRead={() => moveToNext(answerIsOk)}
+    />
+  </WithFooter>
 }

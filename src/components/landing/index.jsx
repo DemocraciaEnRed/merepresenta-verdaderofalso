@@ -5,7 +5,7 @@ import Background from '../../images/initialLoadingBackground.svg';
 import "./index.css";
 
 const Landing = ({ follow }) => <WithBackground background={Background}>
-  <div className="landing-logo">
+  <div className="centered">
     <Logo color="white"/>
     <p className="game-name">TRIVIA</p>
   </div>
