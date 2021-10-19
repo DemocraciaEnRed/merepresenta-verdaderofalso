@@ -841,16 +841,6 @@
     },
     {
         "topic": "Legislativas",
-        "text": "¿Cuál de las siguientes provincias tiene más bancas en la Cámara de Diputados?",
-        "description": "A la provincia de Entre Ríos le corresponden 9 bancas, mientras que a Santiago del Estero tiene 7 bancas y Jujuy 6.",
-        "answer": "Entre Ríos",
-        "incorrectAnswers": [
-            "Santiago del Estero",
-            "Jujuy"
-        ]
-    },
-    {
-        "topic": "Legislativas",
         "text": "¿Por qué distrito fue senadora Cristina Kirchner entre 2001 y 2005?",
         "description": "En el período anterior, entre 1997 y 2001, fue diputada nacional por el mismo distrito.",
         "answer": "Santa Cruz",
