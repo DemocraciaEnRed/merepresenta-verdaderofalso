@@ -22,7 +22,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿Quién fue el primer ministro de Economía de Néstor Kirchner en 2003?",
-        "description": "Asumió como ministro de Economía y Producción en abril de 2002 durante la Presidencia interina de Duhalde. N. Kirchner lo confirmó en el cargo en 2003.",
+        "description": "Lavagna sumió como ministro de Economía y Producción en abril de 2002 durante la Presidencia interina de Duhalde. N. Kirchner lo confirmó en el cargo en 2003.",
         "answer": "Roberto Lavagna",
         "incorrectAnswers": [
             "Jorge Remes Lenicov",
@@ -82,7 +82,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿Quién es el gobernador de Misiones?",
-        "description": "Entre 2015 y 2019 fue vicegobernador, en las elecciones 2019 ganó con más del 72% de los votos.",
+        "description": "Entre 2015 y 2019, Herrera Ahuad fue vicegobernador. En las elecciones 2019 ganó la gobernación con más del 72% de los votos.",
         "answer": "Oscar Herrera Ahuad",
         "incorrectAnswers": [
             "Maurice Closs",
@@ -122,8 +122,8 @@
     {
         "topic": "Política Nacional",
         "text": "¿Cuántas mujeres fueron electas gobernadoras de alguna provincia en toda la historia?",
-        "description": "Fabiana Ríos (T. del Fuego), Lucía Corpacci (Catamarca), Claudia Ledesma Abdala (Santiago del Estero), Ma. Eugenia Vidal (Buenos Aires), Alicia Kirchner (Sta Cruz) y Rosana Bertone (T. del Fuego) encabezaron la fórmula para la gobernación y ganaron.",
-        "answer": "6",
+        "description": "Fabiana Ríos (T. del Fuego), Lucía Corpacci (Catamarca), Claudia Ledesma Abdala (Santiago del Estero), Ma. Eugenia Vidal (Buenos Aires), Alicia Kirchner (Sta Cruz), Rosana Bertone (T. del Fuego) y Arabela Marisa Carreras (Río Negro) encabezaron la fórmula para la gobernación y ganaron.",
+        "answer": "7",
         "incorrectAnswers": [
             "9",
             "19"
@@ -282,7 +282,7 @@
     {
         "topic": "Política Nacional",
         "text": "¿Quien es el/la presidente provisional del Senado actualmente?",
-        "description": "Es senadora por la provincia de Santiago del Estero y su mandato es 2019-2025. Anteriormente fue diputada nacional (2017-2019) y gobernadora de la provincia (2013-2017)",
+        "description": "Ledesma Abdala es senadora por la provincia de Santiago del Estero y su mandato es 2019-2025. Anteriormente fue diputada nacional (2017-2019) y gobernadora de la provincia (2013-2017)",
         "answer": "Claudia Ledesma Abdala",
         "incorrectAnswers": [
             "Cristina Fernández de Kirhner",
@@ -612,7 +612,7 @@
     {
         "topic": "Legislativas",
         "text": "¿Qué período legislativo comenzó el 1 de marzo de 2021?",
-        "description": "El primer período de sesiones fue en el año 1862. El mensaje primer mensaje al Congreso fue dirigido en 1863 por el entonces Presindete Bartolomé Mitre.",
+        "description": "Es el período 139. El primero fue en el año 1862, el primer mensaje al Congreso fue dirigido en 1863 por el entonces Presindete Bartolomé Mitre.",
         "answer": "139",
         "incorrectAnswers": [
             "125",
@@ -702,7 +702,7 @@
     {
         "topic": "Legislativas",
         "text": "¿Qué porcentaje del total de la Cámara de Diputados son mujeres?",
-        "description": "De acuerdo al Directorio Legislativo 2020-2021, 109 de 257 bancas están ocupadas por mujeres.",
+        "description": "De acuerdo al Directorio Legislativo 2020-2021, 109 de 257 bancas (el 42%) están ocupadas por mujeres.",
         "answer": "42%",
         "incorrectAnswers": [
             "38%",
@@ -722,7 +722,7 @@
     {
         "topic": "Legislativas",
         "text": "¿Qué porcentaje de los actuales diputados declaró haber tenido una actividad privada previa a asumir su banca?",
-        "description": "Este dato surge de la información recabada en el Directorio Legislativo 2020-2021.",
+        "description": "El 53% de la Cámara declara haber tenido actividad privada previa. Este dato surge de la información recabada en el Directorio Legislativo 2020-2021.",
         "answer": "53%",
         "incorrectAnswers": [
             "37%",
@@ -732,7 +732,7 @@
     {
         "topic": "Legislativas",
         "text": "¿Cuántos años tenía Carlos Menem cuando asumió como senador en 2017?",
-        "description": "Carlos Menem fue el senador de mayor edad en la historia del Congreso al asumir su cargo en 2017.",
+        "description": "Carlos Menem fue el senador de mayor edad en la historia del Congreso al asumir su cargo en 2017 con 87 años.",
         "answer": "87",
         "incorrectAnswers": [
             "84",
@@ -742,7 +742,7 @@
     {
         "topic": "Legislativas",
         "text": "De las cuatro autoridades de la Cámara de Diputados, ¿cuántas son mujeres?",
-        "description": "La última mujer que ocupó un cargo de autoridad de cámara fue la mendocina Patrica Gimenez que ocupó la vicepresidencia segunda, cargo que dejó en 2017.",
+        "description": "¡CERO! La última mujer que ocupó un cargo de autoridad de cámara fue la mendocina Patrica Gimenez que ocupó la vicepresidencia segunda, cargo que dejó en 2017.",
         "answer": "0",
         "incorrectAnswers": [
             "1",
@@ -842,7 +842,7 @@
     {
         "topic": "Legislativas",
         "text": "¿Por qué distrito fue senadora Cristina Kirchner entre 2001 y 2005?",
-        "description": "En el período anterior, entre 1997 y 2001, fue diputada nacional por el mismo distrito.",
+        "description": "En 2001 fue electa Senadora por Santa Cruz. En el período anterior, entre 1997 y 2001, fue diputada nacional por el mismo distrito.",
         "answer": "Santa Cruz",
         "incorrectAnswers": [
             "Buenos Aires",
@@ -922,7 +922,7 @@
     {
         "topic": "Latinoamérica",
         "text": "En México los proyectos de ley se distinguen por:",
-        "description": "Los proyectos de ley en México no tienen número. Se identifican según su nombre.",
+        "description": "Los proyectos de ley en México no tienen número. Se identifican según su título.",
         "answer": "Título",
         "incorrectAnswers": [
             "Número",
@@ -1042,7 +1042,7 @@
     {
         "topic": "Latinoamérica",
         "text": "¿En qué país un candidato presidencial reveló a un grupo de niños que Santa Claus no existe?",
-        "description": "Jaime Rodriguez Calderón (El Bronco) les reveló a un grupo de niños y niñas que \"el Papá de ustedes es Santa Claus, ¿ya sabían eso?\" y fue muy criticado en redes sociales.",
+        "description": "El candidato mexicano Jaime Rodriguez Calderón (El Bronco) les reveló a un grupo de niños y niñas que \"el Papá de ustedes es Santa Claus, ¿ya sabían eso?\" y fue muy criticado en redes sociales.",
         "answer": "México",
         "incorrectAnswers": [
             "Nicaragua",
@@ -1102,7 +1102,7 @@
     {
         "topic": "Latinoamérica",
         "text": "¿Cuantos candidatos opositores encarceló el gobierno de Daniel Ortega en 2021 para impedir su participación en las elecciones presidenciales de 2021?",
-        "description": "Entre los detenidos figuran 7 precandidatos presidenciales, acusados de “traicionar a la patria”. También fueron detenidos históricos miembros del sandinismo, activistas, empresarios y periodistas.",
+        "description": "Fueron 37 las personas detenidas, entre ellas, figuran 7 precandidatos presidenciales, acusados de “traicionar a la patria”. También fueron detenidos históricos miembros del sandinismo, activistas, empresarios y periodistas.",
         "answer": "37",
         "incorrectAnswers": [
             "8",
@@ -1132,7 +1132,7 @@
     {
         "topic": "Latinoamérica",
         "text": "¿Cuál de los siguientes presidentes no dio positivo por COVID-19 a lo largo de la pandemia?",
-        "description": "El presidente de Colombia no se ha contagiado de COVID-19 hasta el momento. En contrapartida, Jair Bolsonaro y Andrés Manuel López Obrador sufrieron sintomas leves por la enfermedad.",
+        "description": "El presidente de Colombia, Duque, no se ha contagiado de COVID-19 hasta el momento. En contrapartida, Jair Bolsonaro y Andrés Manuel López Obrador sufrieron sintomas leves por la enfermedad.",
         "answer": "Iván Duque",
         "incorrectAnswers": [
             "Jair Bolsonaro",
@@ -1212,7 +1212,7 @@
     {
         "topic": "Elecciones 2021",
         "text": "¿Por qué distrito fue senadora Cristina Fernández entre 2001 y 2005?",
-        "description": "En el período anterior, entre 1997 y 2001, fue diputada nacional por el mismo distrito.",
+        "description": "Fue senadora por Santa Cruz. En el período anterior, entre 1997 y 2001, fue diputada nacional por el mismo distrito.",
         "answer": "Santa Cruz",
         "incorrectAnswers": [
             "Buenos Aires",
@@ -1222,7 +1222,7 @@
     {
         "topic": "Elecciones 2021",
         "text": "¿Cuántas bancas pertenecen a la provincia de Buenos Aires en la Cámara de Diputados?",
-        "description": "El número de diputados por distrito es proporcional a su población. Se eligen mediante el sistema proporcional D'Hont",
+        "description": "Son 70 bancas, más que cualquier otro distrito. El número de diputados por distrito es proporcional a su población. Se eligen mediante el sistema proporcional D'Hont",
         "answer": "70",
         "incorrectAnswers": [
             "60",
@@ -1342,7 +1342,7 @@
     {
         "topic": "Elecciones 2021",
         "text": "¿Las donaciones privadas a una campaña política tienen tope?",
-        "description": "Los partidos no pueden recibir de una misma persona (humana o jurídica) un monto superior al dos por ciento (2%) de los gastos permitidos para la campaña.",
+        "description": "Sí. Los partidos no pueden recibir de una misma persona (humana o jurídica) un monto superior al dos por ciento (2%) de los gastos permitidos para la campaña.",
         "answer": "Sí",
         "incorrectAnswers": [
             "No",
@@ -1352,7 +1352,7 @@
     {
         "topic": "Elecciones 2021",
         "text": "¿Todos los partidos reciben el mismo dinero por parte del Estado?",
-        "description": "La Ley establece el reparto de los fondos públicos: el 50% de los fondos se distribuyen de forma igualitaria, y el otro 50% se distribuye en forma proporcional de acuerdo al resultado de la elección anterior.",
+        "description": "No. La Ley establece el reparto de los fondos públicos: el 50% de los fondos se distribuyen de forma igualitaria, y el otro 50% se distribuye en forma proporcional de acuerdo al resultado de la elección anterior.",
         "answer": "No",
         "incorrectAnswers": [
             "Sí",
@@ -1462,7 +1462,7 @@
     {
         "topic": "Elecciones 2021",
         "text": "¿Cuántas provincias eligen Diputados?",
-        "description": "Hay elecciones en 24  distritos electorales, pero solo 23 de ellos son provincias. Si bien coloquialmente se menciona a la Ciudad Autónoma de Buenos Aires como una provinca, estrictamente no lo es.",
+        "description": "Hay elecciones en 24  distritos electorales, pero solo 23 de ellos son provincias. Si bien coloquialmente se menciona a la Ciudad Autónoma de Buenos Aires como una provinca, estrictamente no lo es. Tramposa la pregunta, lo lamentamos.",
         "answer": "23",
         "incorrectAnswers": [
             "24",
