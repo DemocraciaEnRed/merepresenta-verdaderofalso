@@ -9,14 +9,14 @@ const MobileSizeContainer = ({ children }) => <div className="col-xl-4 col-lg-6 
 
 const Option = ({ onOptionSelected, option }) =>
   <Button className="btn-dark option-button col-md-12" onClick={() => onOptionSelected(option)}>
-    <span className="option-text">{_.toUpper(option)}</span>
+    <span className="option-text">{option? "Verdadero" : "Falso"}</span>
   </Button>
 
-const Question = ({ question, options, onOptionSelected }) => (
+const Question = ({ question, onOptionSelected }) => (
   <div className="col-10 animate__animated animate__fadeIn">
     <p className="question">{question.text}</p>
     <MobileSizeContainer>
-      {options.map((option, number) =>
+      {[true, false].map((option, number) =>
         <Row key={number} className="option">
           <Option
             question={question}

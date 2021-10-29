@@ -12,13 +12,8 @@ import Progress from "../progress";
 export default function DidacticQuestion({ question, moveToNext, currentQuestionNumber, questionCount }) {
   const [answered, setAnswered] = useState(false);
   const [answerIsOk, setAnswerIsOk] = useState(false);
-  const [options, setOptions] = useState([]);
   
-  const { answer, incorrectAnswers, topic } = question;
-  useEffect(() => {
-    const shuffledOptions = _(incorrectAnswers).concat(answer).shuffle().value();
-    setOptions(shuffledOptions);
-  }, [answer, incorrectAnswers]);
+  const { answer, topic } = question;
 
   const onOptionSelected = option => {
     if (answered) return;
@@ -32,7 +27,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
   return <WithFooter content={FooterContent}>
     <Logo topic={topic} />
     <Topic topic={topic}/>
-    <Question question={question} options={options} onOptionSelected={onOptionSelected}/>
+    <Question question={question} onOptionSelected={onOptionSelected}/>
     <DidacticModal
       show={answered}
       question={question}

@@ -52,11 +52,11 @@ const resultsByScore = [
 
 const resultByScore = score => _.find(resultsByScore, ({ max }) => score <= max);
 
-const ProgressWithResultColor = ({ score }) => {
+const ProgressWithResultColor = ({ score, total }) => {
   const result = resultByScore(score);
   const color = `#${result.color}`;
 
-  return <Progress total={10} current={score} color={color} />
+  return <Progress total={total} current={score} color={color} final/>
 };
 
 const backgrounds = [ FirstLoading, SecondLoading, ThirdLoading, FirstLoading ];
