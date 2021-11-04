@@ -30,13 +30,13 @@ export default function Round({ setPlayAgain }) {
   const currentQuestion = questions[currentQuestionNumber];
 
   return (
-    <div className="animate__animated animate__fadeIn animate__fast">
+    <div className="">
     {
       isActive?
         <WithBackground background={Background} light>
           {
             isLoading? <Countdown setIsLoading={setIsLoading}/>
-            : <div className="full-height animate__animated animate__fadeIn">
+            : <div className="full-height">
               <DicaticQuestion
                 key={currentQuestionNumber}
                 question={currentQuestion}
