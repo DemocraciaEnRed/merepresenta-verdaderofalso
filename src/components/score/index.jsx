@@ -11,10 +11,10 @@ import Logo from "../logo";
 import { ReactComponent as IconSvg } from '../../images/meRepresentaIcon.svg';
 import Progress from '../progress';
 import Separator from '../separator';
-import bad from '../../images/scoreMemes/bad.png';
-import good from '../../images/scoreMemes/good.png';
-import veryGood from '../../images/scoreMemes/veryGood.png';
-import excellent from '../../images/scoreMemes/excellent.png';
+import { ReactComponent as Bad } from '../../images/scoreMemes/bad.svg';
+import { ReactComponent as Good } from '../../images/scoreMemes/good.svg';
+import { ReactComponent as VeryGood } from '../../images/scoreMemes/veryGood.svg';
+import { ReactComponent as Excellent } from '../../images/scoreMemes/excellent.svg';
 import { ReactComponent as InstagramLogo } from "../../images/instagramLogo.svg";
 import { ReactComponent as TwitterLogo } from "../../images/twitterLogo.svg";
 import "./index.css";
@@ -22,28 +22,28 @@ import "./index.css";
 const resultsByScore = [
   {
     max: 4,
-    meme: bad,
+    meme: Bad,
     color: "FB2D11",
     description: "Bueno, no importa este resultado, lo importante es que te prepares para las Elecciones Generales 2021.",
     secondayDescription: "Pasá por #MeRepresenta para saber todo sobre las Elecciones Generales 2021"
   },
   {
     max: 6,
-    meme: good,
+    meme: Good,
     color: "EEFF26",
     description: "Tenés poco conocimiento de política argentina, y en noviembre tenés que votar.",
     secondayDescription: "Pasá por #MeRepresenta para saber todo sobre las Elecciones Generales 2021"
   },
   {
     max: 8,
-    meme: veryGood,
+    meme: VeryGood,
     color: "F7A334",
     description: "Bien, se nota que seguís la política argentina.",
     secondayDescription: "Para saber más sobre las Elecciones Generales 2021, entrá a #MeRepresenta"
   },
   {
     max: 10,
-    meme: excellent,
+    meme: Excellent,
     color: "32F991",
     description: "Felicitaciones, tenés mucho conocimiento de la política argentina.",
     secondayDescription: "Para saber aún más sobre las Elecciones Generales 2021, entrá a #MeRepresenta"
@@ -80,7 +80,7 @@ const FinalLoading = ({ setDoneLoading }) => {
 
 const Score = ({ score, total, setPlayAgain }) => {
   const [doneLoading, setDoneLoading] = useState(false);
-  const { meme, description, secondayDescription } = resultByScore(score);
+  const { meme: Meme, description, secondayDescription } = resultByScore(score);
   return <div className="full-height">
     {
       doneLoading?
@@ -92,7 +92,7 @@ const Score = ({ score, total, setPlayAgain }) => {
               <div className="result">
                 <ProgressWithResultColor score={score} total={total} />
               </div>
-              <img className="meme" src={meme} alt="meme resultado" />
+              <Meme className="meme" alt="meme resultado" />
               <div className="col-10">
                 <p className="score-description">{_.toUpper(description)}</p>
                 { secondayDescription && <p>{_.toUpper(secondayDescription)}</p> }
