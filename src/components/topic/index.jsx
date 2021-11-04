@@ -1,15 +1,15 @@
 import React from "react";
 import _ from "lodash";
-import WithTopicColor from "../withTopicColor";
+import WithQuestionColor from "../withQuestionColor";
 import "./index.css";
 
-const Topic = ({ topic, separatorColor = "black" }) => {
+const QuestionLabel = ({ questionNumber, separatorColor = "white" }) => {
   return <div className={`topic separator ${separatorColor}`}>
-    <WithTopicColor
-      render={color => <p style={{ "backgroundColor": color }} className="topic-name">{_.toUpper(topic)}</p>}
-      topic={topic}
+    <WithQuestionColor
+      render={color => <p style={{ "backgroundColor": color }} className="topic-name">PREGUNTA {questionNumber + 1}</p>}
+      questionNumber={questionNumber}
     />
   </div>;
 }
 
-export default Topic;
+export default QuestionLabel;

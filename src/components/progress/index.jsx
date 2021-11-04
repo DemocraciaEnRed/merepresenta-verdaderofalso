@@ -1,18 +1,18 @@
 import React from "react";
-import WithTopicColor from "../withTopicColor";
+import WithQuestionColor from "../withQuestionColor";
 import "./index.css";
 
 const CurrentNumber = ({ color, current }) => <span style={{ "color": color }}>{current}</span>;
-const OfTotal = ({ total }) => <span> de {total}</span>;
+const OfTotal = ({ total }) => <span className="off-total"> de {total}</span>;
 
-const Progress = ({ current, total, topic, color }) => {
-  const isFinalOne = !topic;
+const Progress = ({ current, total, color, final }) => {
+  const isFinalOne = final;
   return <div className={isFinalOne? "final" : ""}>
     {
       !isFinalOne?
-        <WithTopicColor
+        <WithQuestionColor
           render={color => <CurrentNumber color={color} current={current}/>}
-          topic={topic}
+          questionNumber={current}
         />
       : <CurrentNumber color={color} current={current} />
     }

@@ -88,7 +88,7 @@ const Score = ({ score, total, setPlayAgain }) => {
           <WithFooter color="white">
             <div className="score-container animate__animated animate__fadeIn">
               <Logo />
-              <Separator color="white" />
+              <Separator />
               <div className="result">
                 <ProgressWithResultColor score={score} total={total} />
               </div>

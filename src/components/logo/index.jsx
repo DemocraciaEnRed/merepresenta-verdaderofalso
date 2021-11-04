@@ -1,26 +1,12 @@
 import React from "react";
 import { ReactComponent as IconSvg } from '../../images/meRepresentaIcon.svg';
 import { ReactComponent as LogoSvg } from '../../images/meRepresentaLogo.svg';
-import WithTopicColor from "../withTopicColor";
 import "./index.css";
 
 
-const Logo = ({ topic, color = "white" }) => <div>
-  {
-    topic?
-      <div>
-      <WithTopicColor
-        render={color => <IconSvg fill={color} className="icon"/>}
-        topic={topic}
-        />
-      <LogoSvg fill="black"/>
-      </div>
-    :
-    <div>
-      <IconSvg fill={color} className="icon"/>
-      <LogoSvg fill={color} />
-    </div>
-  }
+const Logo = ({ color = "white" }) => <div>
+  <IconSvg fill={color} className="icon"/>
+  <LogoSvg fill={color} />
 </div>
 
 export default Logo;

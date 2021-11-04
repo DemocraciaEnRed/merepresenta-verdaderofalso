@@ -15,10 +15,10 @@ const Description = ({ question: { description }, answerIsOk }) => {
   );
 }
 
-const DidacticModal = ({ question, show, answerIsOk, descriptionRead }) => (
+const DidacticModal = ({ question, show, answerIsOk, descriptionRead, questionNumber }) => (
   <Modal show={show} onHide={descriptionRead} className="modal-container">
     <div className="didactic-modal">
-      <Topic topic={question.topic} separatorColor="black"/>
+      <Topic questionNumber={questionNumber} separatorColor="black"/>
       <Modal.Body>
         <Description question={question} answerIsOk={answerIsOk}/>
         <div onClick={descriptionRead} className="continue">

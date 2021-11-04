@@ -13,7 +13,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
   const [answered, setAnswered] = useState(false);
   const [answerIsOk, setAnswerIsOk] = useState(false);
   
-  const { answer, topic } = question;
+  const { answer } = question;
 
   const onOptionSelected = option => {
     if (answered) return;
@@ -22,17 +22,18 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
     setAnswerIsOk(isCorrect);
   };
 
-  const FooterContent = <Progress current={currentQuestionNumber+1} total={questionCount} topic={topic}/>;
+  const FooterContent = <Progress current={currentQuestionNumber+1} total={questionCount} />;
 
   return <WithFooter content={FooterContent}>
     <Logo  />
-    <Topic topic={topic}/>
+    <Topic questionNumber={currentQuestionNumber}/>
     <Question question={question} onOptionSelected={onOptionSelected}/>
     <DidacticModal
       show={answered}
       question={question}
       answerIsOk={answerIsOk}
       descriptionRead={() => moveToNext(answerIsOk)}
+      questionNumber={currentQuestionNumber}
     />
   </WithFooter>
 }

@@ -1,5 +1,5 @@
 import "./index.css"
 
-const Separator = ({ color = "black" }) => <div className={`separator-line ${color}`} />;
+const Separator = ({ color = "white" }) => <div className={`separator-line ${color}`} />;
 
 export default Separator;
