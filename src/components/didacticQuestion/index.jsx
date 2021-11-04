@@ -25,7 +25,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
   const FooterContent = <Progress current={currentQuestionNumber+1} total={questionCount} topic={topic}/>;
 
   return <WithFooter content={FooterContent}>
-    <Logo color="white" />
+    <Logo  />
     <Topic topic={topic}/>
     <Question question={question} onOptionSelected={onOptionSelected}/>
     <DidacticModal

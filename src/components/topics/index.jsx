@@ -10,7 +10,7 @@ import "./index.css";
 
 const Topics = ({ follow }) => <WithBackground background={Background}>
   <div className="animate__animated animate__fadeIn">
-    <Logo color="white"/>
+    <Logo />
     <div className="topics col-10">
       <p className="topics-description">Te vamos a hacer 10 preguntas de estas 5 categorías:</p>
       {_(topicColors).keys()

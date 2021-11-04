@@ -5,7 +5,7 @@ import WithTopicColor from "../withTopicColor";
 import "./index.css";
 
 
-const Logo = ({ topic, color }) => <div>
+const Logo = ({ topic, color = "white" }) => <div>
   {
     topic?
       <div>

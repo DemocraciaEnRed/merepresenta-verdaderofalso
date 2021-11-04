@@ -71,7 +71,7 @@ const FinalLoading = ({ setDoneLoading }) => {
   setTimeout(moveBackground, 1000)
 
   return <WithBackground key={backgroundNumber} background={background} className="loading-background">
-    <Logo color="white"/>
+    <Logo />
     <div className="centered">
       <IconSvg fill="white" className="loading-logo"/>
     </div>
@@ -87,7 +87,7 @@ const Score = ({ score, total, setPlayAgain }) => {
         <WithBackground background={Background}>
           <WithFooter color="white">
             <div className="score-container animate__animated animate__fadeIn">
-              <Logo color="white"/>
+              <Logo />
               <Separator color="white" />
               <div className="result">
                 <ProgressWithResultColor score={score} total={total} />
