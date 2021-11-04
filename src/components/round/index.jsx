@@ -6,7 +6,7 @@ import WithBackground from "../withBackground";
 import Countdown from "../countdown";
 import Score from "../score";
 import config from "../../config";
-import questionPool from "../../questions.json";
+import questionSets from "../../questions.json";
 
 export default function Round({ setPlayAgain }) {
   const [questions, setQuestions] = useState([]);
@@ -15,7 +15,7 @@ export default function Round({ setPlayAgain }) {
   const [isLoading, setIsLoading] = useState(true);
   
   useEffect(() => {
-    const roundQuestions = _.sampleSize(questionPool, config.questionsPerRound);
+    const roundQuestions = _.sample(questionSets);
     setQuestions(roundQuestions);
   }, []);
 
