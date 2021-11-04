@@ -72,9 +72,6 @@ const FinalLoading = ({ setDoneLoading }) => {
 
   return <WithBackground key={backgroundNumber} background={background} className="loading-background">
     <Logo />
-    <div className="centered">
-      <IconSvg fill="white" className="loading-logo"/>
-    </div>
   </WithBackground>
 };
 
