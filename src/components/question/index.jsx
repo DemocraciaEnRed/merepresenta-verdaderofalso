@@ -9,7 +9,7 @@ const MobileSizeContainer = ({ children }) => <div className="col-xl-4 col-lg-6 
 
 const Option = ({ onOptionSelected, option }) =>
   <Button className="btn-dark option-button col-md-12" onClick={() => onOptionSelected(option)}>
-    <span className="option-text">{option? "Verdadero" : "Falso"}</span>
+    <span className="option-text">{option? "VERDADERO" : "FALSO"}</span>
   </Button>
 
 const Question = ({ question, onOptionSelected }) => (
