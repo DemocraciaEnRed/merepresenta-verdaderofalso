@@ -24,29 +24,29 @@ const resultsByScore = [
     max: 4,
     meme: Bad,
     color: "FB2D11",
-    description: "Bueno, no importa este resultado, lo importante es que te prepares para las Elecciones Generales 2021.",
-    secondayDescription: "Pasá por #MeRepresenta para saber todo sobre las Elecciones Generales 2021"
+    description: "No importa este resultado. ¡Lo importante es que te prepares para votar! ¡Todavía estás a tiempo de hacerlo!",
+    secondayDescription: "Acordate que lo más importante es el sentido que le des a TU voto."
   },
   {
     max: 6,
     meme: Good,
     color: "EEFF26",
-    description: "Tenés poco conocimiento de política argentina, y en noviembre tenés que votar.",
-    secondayDescription: "Pasá por #MeRepresenta para saber todo sobre las Elecciones Generales 2021"
+    description: "Te falta algo de conocimiento sobre cómo funcionan las elecciones. ¡Pero no es un problema! Todavía estás a tiempo de informarte 😉",
+    secondayDescription: "Acordate que lo más importante es el sentido que le des a TU voto."
   },
   {
     max: 8,
     meme: VeryGood,
     color: "F7A334",
-    description: "Bien, se nota que seguís la política argentina.",
-    secondayDescription: "Para saber más sobre las Elecciones Generales 2021, entrá a #MeRepresenta"
+    description: "¡Se nota que no es tu primera elección! 😉 Poco de lo reglamentario te puede sorprender.",
+    secondayDescription: "Ahora, lo más importante es el sentido que le des a TU voto."
   },
   {
     max: 10,
     meme: Excellent,
     color: "32F991",
-    description: "Felicitaciones, tenés mucho conocimiento de la política argentina.",
-    secondayDescription: "Para saber aún más sobre las Elecciones Generales 2021, entrá a #MeRepresenta"
+    description: "¡La tenés clarísima! Nada de lo reglamentario te va a sorprender.",
+    secondayDescription: "Ahora, lo más importante es el sentido que le des a TU voto."
   }
 ];
 
@@ -95,7 +95,8 @@ const Score = ({ score, total, setPlayAgain }) => {
               <Meme className="meme" alt="meme resultado" />
               <div className="col-10">
                 <p className="score-description">{_.toUpper(description)}</p>
-                { secondayDescription && <p>{_.toUpper(secondayDescription)}</p> }
+                { secondayDescription && <p className="score-secondary-description">{_.toUpper(secondayDescription)}</p> }
+                <p className="score-more-info">PARA SABER MÁS SOBRE LAS CANDIDATURAS Y LAS PROPUESTAS ENTRÁ A #MEREPRESENTA</p>
               </div>
               <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
               <p>o</p>
