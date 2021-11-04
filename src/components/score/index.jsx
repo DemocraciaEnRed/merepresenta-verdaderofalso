@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import _ from "lodash";
 import WithBackground from "../withBackground";
 import WithFooter from "../withFooter";
-import Background from '../../images/scoreBackground.svg';
+import Background from '../../images/roundBackground.svg';
 import FirstLoading from '../../images/firstLoadingBackground.svg';
 import SecondLoading from '../../images/secondLoadingBackground.svg';
 import ThirdLoading from '../../images/thirdLoadingBackground.svg';

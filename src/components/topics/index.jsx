@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 import Logo from "../logo";
 import WithBackground from "../withBackground";
 import WithTopicColor from "../withTopicColor";
-import Background from '../../images/scoreBackground.svg';
+import Background from '../../images/roundBackground.svg';
 import topicColors from "../../helpers/topicColors";
 import "./index.css";
 
