@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83b7fe8f.chunk.css",
+    "main.js": "/static/js/main.acef7c31.chunk.js",
+    "main.js.map": "/static/js/main.acef7c31.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.36bb51c2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.36bb51c2.js.map",
+    "static/css/2.46b964d6.chunk.css": "/static/css/2.46b964d6.chunk.css",
+    "static/js/2.47583d67.chunk.js": "/static/js/2.47583d67.chunk.js",
+    "static/js/2.47583d67.chunk.js.map": "/static/js/2.47583d67.chunk.js.map",
+    "static/js/3.a17d5c48.chunk.js": "/static/js/3.a17d5c48.chunk.js",
+    "static/js/3.a17d5c48.chunk.js.map": "/static/js/3.a17d5c48.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.46b964d6.chunk.css.map": "/static/css/2.46b964d6.chunk.css.map",
+    "static/css/main.83b7fe8f.chunk.css.map": "/static/css/main.83b7fe8f.chunk.css.map",
+    "static/js/2.47583d67.chunk.js.LICENSE.txt": "/static/js/2.47583d67.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Nippo.b2ac25be.woff",
+    "static/media/bad.33589fae.svg": "/static/media/bad.33589fae.svg",
+    "static/media/continueIcon.f480da61.svg": "/static/media/continueIcon.f480da61.svg",
+    "static/media/correctAnswerIcon.23b216df.svg": "/static/media/correctAnswerIcon.23b216df.svg",
+    "static/media/excellent.941e6ba1.svg": "/static/media/excellent.941e6ba1.svg",
+    "static/media/firstLoadingBackground.6136a3ee.svg": "/static/media/firstLoadingBackground.6136a3ee.svg",
+    "static/media/good.579188ad.svg": "/static/media/good.579188ad.svg",
+    "static/media/incorrectAnswerIcon.b6026017.svg": "/static/media/incorrectAnswerIcon.b6026017.svg",
+    "static/media/instagramLogo.9ceb4492.svg": "/static/media/instagramLogo.9ceb4492.svg",
+    "static/media/meRepresentaIcon.7dc45cc8.svg": "/static/media/meRepresentaIcon.7dc45cc8.svg",
+    "static/media/meRepresentaLogo.a8711598.svg": "/static/media/meRepresentaLogo.a8711598.svg",
+    "static/media/roundBackground.eb970a0b.svg": "/static/media/roundBackground.eb970a0b.svg",
+    "static/media/secondLoadingBackground.010c6468.svg": "/static/media/secondLoadingBackground.010c6468.svg",
+    "static/media/thirdLoadingBackground.287da1a5.svg": "/static/media/thirdLoadingBackground.287da1a5.svg",
+    "static/media/twitterLogo.72249e75.svg": "/static/media/twitterLogo.72249e75.svg",
+    "static/media/veryGood.e409c754.svg": "/static/media/veryGood.e409c754.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36bb51c2.js",
+    "static/css/2.46b964d6.chunk.css",
+    "static/js/2.47583d67.chunk.js",
+    "static/css/main.83b7fe8f.chunk.css",
+    "static/js/main.acef7c31.chunk.js"
+  ]
+}
