@@ -22,7 +22,7 @@ export default function DidacticQuestion({ question, moveToNext, currentQuestion
     setAnswerIsOk(isCorrect);
   };
 
-  const FooterContent = <Progress current={currentQuestionNumber+1} total={questionCount} />;
+  const FooterContent = <Progress current={currentQuestionNumber} total={questionCount} />;
 
   return <WithFooter content={FooterContent}>
     <Logo  />

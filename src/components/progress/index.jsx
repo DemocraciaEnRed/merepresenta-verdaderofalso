@@ -11,7 +11,7 @@ const Progress = ({ current, total, color, final }) => {
     {
       !isFinalOne?
         <WithQuestionColor
-          render={color => <CurrentNumber color={color} current={current}/>}
+          render={color => <CurrentNumber color={color} current={current + 1}/>}
           questionNumber={current}
         />
       : <CurrentNumber color={color} current={current} />

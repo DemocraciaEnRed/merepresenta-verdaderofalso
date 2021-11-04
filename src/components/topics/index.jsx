@@ -4,7 +4,6 @@ import { Button } from "react-bootstrap";
 import Logo from "../logo";
 import WithBackground from "../withBackground";
 import Background from '../../images/roundBackground.svg';
-import topicColors from "../../helpers/topicColors";
 import "./index.css";
 
 const Topics = ({ follow }) => <WithBackground background={Background}>
