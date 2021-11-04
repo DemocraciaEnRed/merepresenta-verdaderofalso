@@ -3,13 +3,15 @@ span {
 }
 
 .score {
-  font-size: 28px;
+  
 }
 
 .final {
   color: white;
+  font-size: 28px;
 }
 
 .partial {
   color: black;
+  font-size: 1rem;
 }
