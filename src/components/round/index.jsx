@@ -5,7 +5,6 @@ import Background from '../../images/roundBackground.svg';
 import WithBackground from "../withBackground";
 import Countdown from "../countdown";
 import Score from "../score";
-import config from "../../config";
 import questionSets from "../../questions.json";
 
 export default function Round({ setPlayAgain }) {
