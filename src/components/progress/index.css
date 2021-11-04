@@ -2,16 +2,7 @@ span {
   font-family: 'Nippo';
 }
 
-.score {
-  
-}
-
 .final {
   color: white;
   font-size: 28px;
-}
-
-.partial {
-  color: black;
-  font-size: 1rem;
 }
