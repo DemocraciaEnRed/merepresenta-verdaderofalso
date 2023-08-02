@@ -6,7 +6,7 @@
             "description": "El conteo (el escrutinio) que se hace el día de la elección es provisorio. El escrutinio definitivo es el que realiza la Justicia Electoral en los días posteriores y es el que establece los resultados definitivos."
         },
         {
-            "text": "Las autoridades de una mesa electoral son la/el Presidenta-e de Mesa, su suplente y los fiscales puestos por los partidos políticos.",
+            "text": "Las autoridades de una mesa electoral son la/el Presidenta/e de Mesa, su suplente y los fiscales puestos por los partidos políticos.",
             "answer": false,
             "description": "Las y los fiscales partidarios no son Autoridad de la Mesa. Las únicas autoridades son las nombradas por la Justicia Electoral como “Presidenta/e de Mesa” y su suplente."
         },
@@ -28,7 +28,7 @@
         {
             "text": "Si en el padrón electoral aparezco con el DNI original y voy a votar con el duplicado me van a dejar votar igual.",
             "answer": true,
-            "description": "Se puede votar con el mismo documento que aparece en el padrón o con uno posterior. No así con uno versión anterior. Si aparece, por ejemplo, “DNI duplicado” no se puede votar con el original."
+            "description": "Se puede votar con el mismo documento que aparece en el padrón o con uno posterior. No así con una versión anterior. Si aparece, por ejemplo, “DNI duplicado” no se puede votar con el original."
         },
         {
             "text": "Si no aparezco en el padrón electoral, pero demuestro ante la autoridad de mesa que pertenezco a ese distrito, tienen la obligación de agregarme a mano y dejarme votar.",
@@ -95,12 +95,12 @@
         {
             "text": "Una persona extranjera o residente en Argentina no puede votar para cargos nacionales, pero sí para cargos subnacionales.",
             "answer": true,
-            "description": "El Código Electoral Nacional establece que sólo ciudadanas-os pueden elegir cargos nacionales. Sin embargo, a nivel subnacional, sí podría elegir cargos provinciales y/o municipales si la normativa provincial así lo dispone. "
+            "description": "El Código Electoral Nacional establece que sólo la ciudadanía pueden elegir cargos nacionales. Sin embargo, a nivel subnacional, sí podría elegir cargos provinciales y/o municipales si la normativa provincial así lo dispone. "
         },
         {
             "text": "La autoridad de la mesa electoral puede prohibirme votar si es capaz de demostrar que mi inclusión en el padrón está mal.",
             "answer": false,
-            "description": "Todo aquellla persona que figure en el padrón y exhiba su documento tiene el derecho a votar y nadie lo puede cuestionar. "
+            "description": "Todo aquella persona que figure en el padrón y exhiba su documento tiene el derecho a votar y nadie lo puede cuestionar. "
         }
     ],  
 
