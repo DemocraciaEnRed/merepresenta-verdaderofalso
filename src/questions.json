@@ -106,9 +106,9 @@
 
     [
         {
-            "text": "El voto es obligatorio para todos los ciudadanos argentinos mayores de 16 años. ",
-            "answer": false,
-            "description": "Por la Ley de Voto Joven, a partir de los 16 años se puede elegir las autoridades nacionales. Pero es voluntario, la obligatoriedad del voto es a partir de los 18 años."
+            "text": "El voto es obligatorio para todas las personas ciudadanas argentinas mayores de 16 años.",
+            "answer": true,
+            "description": "Por la Ley de Voto Joven, a partir de los 16 años se puede elegir las autoridades nacionales. Es obligatorio pero entre los 16 y los 18 años no hay sanciones en caso de no votar."
         },
         {
             "text": "Las campañas electorales se financian únicamente por aportes públicos. ",
