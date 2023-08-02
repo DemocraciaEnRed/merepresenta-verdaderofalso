@@ -24,28 +24,28 @@ const resultsByScore = [
     max: 4,
     meme: Bad,
     color: "FB2D11",
-    description: "No importa este resultado. ¡Lo importante es que te prepares para votar! ¡Todavía estás a tiempo de hacerlo!",
+    description: 'A Walt Disney lo despidieron de su primer trabajo por "falta de imaginación". Mirá si vos no vas a poder dar vuelta este resultado.',
     secondayDescription: "Acordate que lo más importante es el sentido que le des a TU voto."
   },
   {
     max: 6,
     meme: Good,
     color: "EEFF26",
-    description: "Te falta algo de conocimiento sobre cómo funcionan las elecciones. ¡Pero no es un problema! Todavía estás a tiempo de informarte 😉",
+    description: "Podrías saber un poco más sobre cómo funcionan las elecciones, no te vamos a mentir. ¡Pero no es un problema! Todavía estás a tiempo de informarte 😉",
     secondayDescription: "Acordate que lo más importante es el sentido que le des a TU voto."
   },
   {
     max: 8,
     meme: VeryGood,
     color: "F7A334",
-    description: "¡Se nota que no es tu primera elección! 😉 Poco de lo reglamentario te puede sorprender.",
+    description: "Sin duda, tenés altas chances de ganar en la discusión familiar del domingo.",
     secondayDescription: "Ahora, lo más importante es el sentido que le des a TU voto."
   },
   {
     max: 10,
     meme: Excellent,
     color: "32F991",
-    description: "¡La tenés clarísima! Nada de lo reglamentario te va a sorprender.",
+    description: "Qué no te vengan a discutir nada reglamentario a vos, eh. La tenés MUY clara.",
     secondayDescription: "Ahora, lo más importante es el sentido que le des a TU voto."
   }
 ];
