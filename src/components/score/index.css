@@ -33,6 +33,7 @@
 
 .merepresenta-button {
   margin: .5rem 0 3rem;
+  border-radius: 30px!important;
 }
 
 .social-networks-logos>* {
@@ -54,6 +55,26 @@
 .loading-background {
   animation-name: fade;
   animation-duration: 1s;
+}
+
+
+.share-text{
+  font-size: 16px;
+  font-weight: 700;
+}
+.iconos{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.call-to{
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.trivia {
+  height: 200px;
 }
 
 @keyframes fade {

@@ -15,8 +15,13 @@ import { ReactComponent as Bad } from '../../images/scoreMemes/bad.svg';
 import { ReactComponent as Good } from '../../images/scoreMemes/good.svg';
 import { ReactComponent as VeryGood } from '../../images/scoreMemes/veryGood.svg';
 import { ReactComponent as Excellent } from '../../images/scoreMemes/excellent.svg';
-import { ReactComponent as InstagramLogo } from "../../images/instagramLogo.svg";
-import { ReactComponent as TwitterLogo } from "../../images/twitterLogo.svg";
+// import { ReactComponent as InstagramLogo } from "../../images/instagramLogo.svg";
+// import { ReactComponent as TwitterLogo } from "../../images/twitterLogo.svg";
+import trivia from '../../images/trivia.png';
+import { ReactComponent as TwitterIcono } from "../../images/iconoX.svg";
+import { ReactComponent as WhatsappIcono } from "../../images/iconoWhats.svg";
+import { ReactComponent as LinkIcono } from "../../images/iconoLink.svg";
+
 import "./index.css";
 
 const resultsByScore = [
@@ -78,6 +83,25 @@ const FinalLoading = ({ setDoneLoading }) => {
 const Score = ({ score, total, setPlayAgain }) => {
   const [doneLoading, setDoneLoading] = useState(false);
   const { meme: Meme, description, secondayDescription } = resultByScore(score);
+
+  const textShare = `A ver si superás mi puntaje ${score}/10 en este Verdadero o Falso sobre las Elecciones \nPoné a prueba tus conocimientos y veamos quién es sabe más 😉 \nEntrá a MR y enterate de todo lo que necesitás saber para estas elecciones.\n\nEntra a https://verdaderofalso.merepresenta.info/ para Jugar`
+
+    const shareOnWhatsApp = () => {
+      const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(textShare)}`;
+      window.open(whatsappUrl, '_blank');
+    };
+
+    const shareOnTwitter = () => {
+      const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(textShare)}`;
+      window.open(twitterUrl, '_blank');
+    };
+
+    const copyToClipboard = () => {
+      navigator.clipboard.writeText(textShare);
+    };
+
+
+
   return <div className="full-height">
     {
       doneLoading?
@@ -95,17 +119,41 @@ const Score = ({ score, total, setPlayAgain }) => {
                 { secondayDescription && <p className="score-secondary-description">{_.toUpper(secondayDescription)}</p> }
                 <p className="score-more-info">PARA SABER MÁS SOBRE LAS CANDIDATURAS Y LAS PROPUESTAS ENTRÁ A #MEREPRESENTA</p>
               </div>
-              <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
-              <p>o</p>
-              <p className="more-info">Encontrá más info sobre las elecciones en: </p>
-              <Button target="_blank" href="https://merepresenta.info/" className="col-md-3 col-sm-4 col-10 merepresenta-button" variant="light">#MEREPRESENTA</Button>
-              <p>Para conocer lo que hacemos seguinos en:</p>
+
+              <p className="share-text">Compartí tu resultado en Redes sociales</p> 
+              <div>
+                <a onClick={shareOnTwitter} className="iconos">
+                  <TwitterIcono alt="twitter" />
+                </a>
+                <a onClick={shareOnWhatsApp}  className="iconos">
+                  <WhatsappIcono alt="twitter" />
+                </a>
+                <a onClick={copyToClipboard} className="iconos">
+                  <LinkIcono alt="twitter" />
+                </a>
+                {/* <a  className="iconos">
+                  <JpgIcono alt="twitter" />
+                </a>                                 */}
+              </div>
+
+              <div>
+                <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
+                <p className="call-to">Te invitamos a Jugar a:</p> 
+                <a href="https://trivia.merepresenta.info/" >
+                  <img className="trivia" src={trivia} alt="Jugar a trivia" />
+                </a>                
+                <p>o</p>
+                <p className="more-info">Encontrá más info sobre las elecciones en: </p>
+                <Button target="_blank" href="https://merepresenta.info/" className="col-md-3 col-sm-4 col-10 merepresenta-button" variant="light">#MEREPRESENTA</Button>
+
+              </div>
+              {/* <p>Para conocer lo que hacemos seguinos en:</p>
               <a href="https://www.instagram.com/democraciaenred" target="_blank">
                 <InstagramLogo alt="instagram" />
               </a>
               <a href="https://twitter.com/fundacionDER" target="_blank" className="twitter">
                 <TwitterLogo alt="twitter" />
-              </a>
+              </a> */}
             </div>
           </WithFooter>
         </WithBackground>
