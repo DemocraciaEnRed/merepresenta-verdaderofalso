@@ -73,9 +73,11 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-.trivia {
+.game-images {
   height: 200px;
+  margin: .5rem;
 }
+
 
 @keyframes fade {
   0% {opacity: 0.9;}

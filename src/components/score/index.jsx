@@ -17,7 +17,11 @@ import { ReactComponent as VeryGood } from '../../images/scoreMemes/veryGood.svg
 import { ReactComponent as Excellent } from '../../images/scoreMemes/excellent.svg';
 // import { ReactComponent as InstagramLogo } from "../../images/instagramLogo.svg";
 // import { ReactComponent as TwitterLogo } from "../../images/twitterLogo.svg";
-import trivia from '../../images/trivia.png';
+import trivia from '../../images/games/trivia.png';
+import compas from '../../images/games/compas.png';
+import espectrometro from '../../images/games/espectrometro.png';
+import quienDijo from '../../images/games/quiendijo.png';
+
 import { ReactComponent as TwitterIcono } from "../../images/iconoX.svg";
 import { ReactComponent as WhatsappIcono } from "../../images/iconoWhats.svg";
 import { ReactComponent as LinkIcono } from "../../images/iconoLink.svg";
@@ -140,7 +144,16 @@ const Score = ({ score, total, setPlayAgain }) => {
                 <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
                 <p className="call-to">Te invitamos a Jugar a:</p> 
                 <a href="https://trivia.merepresenta.info/" >
-                  <img className="trivia" src={trivia} alt="Jugar a trivia" />
+                  <img className="game-images" src={trivia} alt="Jugar a trivia" />
+                </a>
+                <a href="https://quiendijo.merepresenta.info/" >
+                  <img className="game-images" src={quienDijo} alt="Jugar a quién dijo" />
+                </a>
+                <a href="https://compaspolitico.merepresenta.info/" >
+                  <img className="game-images" src={compas} alt="Jugar a compas politico" />
+                </a>
+                <a href="https://dequelado.merepresenta.info/" >
+                  <img className="game-images" src={espectrometro} alt="Jugar a de que lado estan" />
                 </a>                
                 <p>o</p>
                 <p className="more-info">Encontrá más info sobre las elecciones en: </p>
